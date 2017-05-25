@@ -77,5 +77,12 @@ namespace Star_Killer
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Process p3 = Process.Start("d7.exe");
+            Thread.Sleep(500); // Allow the process to open it's window
+            SetParent(p3.MainWindowHandle, panel1.Handle);
+        }
     }
 }
