@@ -49,10 +49,33 @@ namespace Star_Killer
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Process p = Process.Start("procexp64.exe");
+            Process p1 = Process.Start("procexp64.exe");
             // Process p = Process.Start("CryptoPreventSetupV8.exe");
             Thread.Sleep(500); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, panel1.Handle);
+            SetParent(p1.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Process p3 = Process.Start("CryptoPreventSetupV8.exe");
+            Thread.Sleep(500); // Allow the process to open it's window
+            SetParent(p3.MainWindowHandle, panel1.Handle);
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
