@@ -1,5 +1,0 @@
-(5/23/2017 10:15 PM) chrome memory contains meterpreter signature. [Meterpreter Found],
-(5/23/2017 10:15 PM) chrome memory contains meterpreter signature. [Meterpreter Found],
-(5/23/2017 10:19 PM) chrome memory contains meterpreter signature. [Meterpreter Found],
-(5/23/2017 10:34 PM) MicrosoftEdgeCP memory contains meterpreter signature. [Meterpreter Found],
-(5/23/2017 10:34 PM) MicrosoftEdgeCP memory contains meterpreter signature. [Meterpreter Found],

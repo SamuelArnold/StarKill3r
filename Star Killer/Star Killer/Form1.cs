@@ -25,7 +25,11 @@ namespace Star_Killer
         {
             Process p = Process.Start("AntiPwny.exe"); 
             Thread.Sleep(500); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, panel1.Handle);
+           SetParent(p.MainWindowHandle, panel1.Handle);
+
+           // Process p = Process.Start("CryptoPreventSetupV8.exe");
+           //Thread.Sleep(500); // Allow the process to open it's window
+            //SetParent(p.MainWindowHandle, panel1.Handle);
 
         }
 
@@ -41,6 +45,14 @@ namespace Star_Killer
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Process p = Process.Start("procexp64.exe");
+            // Process p = Process.Start("CryptoPreventSetupV8.exe");
+            Thread.Sleep(500); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, panel1.Handle);
         }
     }
 }
