@@ -18,14 +18,25 @@ namespace Star_Killer
         public Form1()
         {
             InitializeComponent();
+            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+           // this.TopMost = true;
+            WindowState = FormWindowState.Maximized;
+
         }
 
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Process p = Process.Start("AntiPwny.exe"); 
+
+
+
+            ProcessStartInfo theProcess = new ProcessStartInfo("AntiPwny.exe");
+            theProcess.WindowStyle = ProcessWindowStyle.Normal;
+            Process p = Process.Start(theProcess);
+           // Process p = Process.Start("AntiPwny.exe"); 
             Thread.Sleep(500); // Allow the process to open it's window
-           SetParent(p.MainWindowHandle, panel1.Handle);
+            //Program.MoveWindow(p.MainWindowHandle, 0, 0, 500, 500, true);
+            SetParent(p.MainWindowHandle, panel1.Handle);
 
            // Process p = Process.Start("CryptoPreventSetupV8.exe");
            //Thread.Sleep(500); // Allow the process to open it's window
@@ -34,7 +45,8 @@ namespace Star_Killer
         }
 
         [DllImport("user32.dll")]
-        static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+         static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+        //private extern static bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int X, int Y, int cx, int cy, int uFlags);
 
 
         private void Form1_Load(object sender, EventArgs e)
@@ -49,7 +61,13 @@ namespace Star_Killer
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Process p1 = Process.Start("procexp64.exe");
+
+            ProcessStartInfo theProcess = new ProcessStartInfo("procexp.exe");
+
+            theProcess.WindowStyle = ProcessWindowStyle.Normal;
+
+              Process p1 = Process.Start(theProcess);
+           // Process p1 = Process.Start("procexp64.exe");
             // Process p = Process.Start("CryptoPreventSetupV8.exe");
             Thread.Sleep(500); // Allow the process to open it's window
             SetParent(p1.MainWindowHandle, panel1.Handle);
@@ -67,9 +85,9 @@ namespace Star_Killer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Process p3 = Process.Start("CryptoPreventSetupV8.exe");
-            Thread.Sleep(500); // Allow the process to open it's window
-            SetParent(p3.MainWindowHandle, panel1.Handle);
+            //Process p3 = Process.Start("CryptoPreventSetupV8.exe");
+            //Thread.Sleep(500); // Allow the process to open it's window
+            //SetParent(p3.MainWindowHandle, panel1.Handle);
 
         }
 
@@ -80,9 +98,9 @@ namespace Star_Killer
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Process p3 = Process.Start("d7.exe");
-            Thread.Sleep(500); // Allow the process to open it's window
-            SetParent(p3.MainWindowHandle, panel1.Handle);
+           // Process p3 = Process.Start("d7.exe");
+           // Thread.Sleep(500); // Allow the process to open it's window
+         //   SetParent(p3.MainWindowHandle, panel1.Handle);
         }
     }
 }
