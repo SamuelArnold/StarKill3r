@@ -45,16 +45,21 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 240);
+            this.button1.Location = new System.Drawing.Point(84, 296);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 50);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Anti Pwny";
+            this.button1.Text = "Anti Pwny (IDS)";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -62,6 +67,7 @@
             // 
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Location = new System.Drawing.Point(165, -2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1991, 2002);
@@ -80,17 +86,17 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(84, 240);
+            this.button3.Location = new System.Drawing.Point(84, 237);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 53);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Crypto Prevent";
+            this.button3.Text = "Crypto Prevent (GPO)";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(84, 296);
+            this.button4.Location = new System.Drawing.Point(3, 237);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 53);
             this.button4.TabIndex = 4;
@@ -100,7 +106,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(3, 568);
+            this.button5.Location = new System.Drawing.Point(84, 391);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 53);
             this.button5.TabIndex = 5;
@@ -127,7 +133,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(84, 391);
+            this.button8.Location = new System.Drawing.Point(3, 568);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 53);
             this.button8.TabIndex = 8;
@@ -210,24 +216,74 @@
             this.label3.Text = "StarKill3r  Created by Sam Arnold";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(84, 568);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 53);
+            this.button12.TabIndex = 16;
+            this.button12.Text = "Command Prompt Lockdow";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(3, 627);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 53);
+            this.button13.TabIndex = 17;
+            this.button13.Text = "StegDetect (spanish)";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(3, 686);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 53);
+            this.button14.TabIndex = 18;
+            this.button14.Text = "Forensic Image";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(84, 627);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 53);
+            this.button15.TabIndex = 19;
+            this.button15.Text = "Shadow Explorer";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(84, 686);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 53);
+            this.button16.TabIndex = 20;
+            this.button16.Text = "ADS detector";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1402, 768);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button8);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button7);
@@ -259,6 +315,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
     }
 }
 

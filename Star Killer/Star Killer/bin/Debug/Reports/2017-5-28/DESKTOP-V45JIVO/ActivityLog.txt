@@ -23,3 +23,15 @@
 
 07:51 PM -- Started --
 07:51 PM - Checked MBR for infections and scanned for additional malicious items (Avast!).
+
+09:10 PM -- Started --
+09:11 PM - Performed additional rootkit scanning. (BRR)
+10:33 PM - ComboFix (Uninstall)
+10:36 PM -- Stopped --
+
+10:38 PM -- Started --
+10:38 PM - Ran malware scans (Combofix)
+10:38 PM -- Stopped --
+
+10:58 PM -- Started --
+10:58 PM -- Stopped --
