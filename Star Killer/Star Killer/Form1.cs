@@ -85,9 +85,9 @@ namespace Star_Killer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //Process p3 = Process.Start("CryptoPreventSetupV8.exe");
-            //Thread.Sleep(500); // Allow the process to open it's window
-            //SetParent(p3.MainWindowHandle, panel1.Handle);
+            Process p3 = Process.Start("CryptoPreventSetupV8.exe");
+            Thread.Sleep(500); // Allow the process to open it's window
+            SetParent(p3.MainWindowHandle, panel1.Handle);
 
         }
 
@@ -101,6 +101,26 @@ namespace Star_Killer
            // Process p3 = Process.Start("d7.exe");
            // Thread.Sleep(500); // Allow the process to open it's window
          //   SetParent(p3.MainWindowHandle, panel1.Handle);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

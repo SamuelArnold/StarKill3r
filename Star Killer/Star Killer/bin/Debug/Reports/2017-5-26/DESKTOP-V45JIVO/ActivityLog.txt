@@ -1,0 +1,9 @@
+
+11:02 PM -- Started --
+11:04 PM - Manually scanned for rootkit activity.
+11:06 PM - Performed additional rootkit scanning. (BRR)
+11:08 PM - Ran Malware Scans (HitmanPro)
+11:27 PM - Scanned for MBR infections / rootkits (MBAR)
+09:54 AM - Checked MBR for infections.
+09:54 AM - Scanned for rogue applications and malware (RogueKiller)
+09:54 AM -- Stopped --
