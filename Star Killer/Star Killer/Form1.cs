@@ -25,29 +25,25 @@ namespace Star_Killer
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-
-
-            ProcessStartInfo theProcess = new ProcessStartInfo("AntiPwny.exe");
-            theProcess.WindowStyle = ProcessWindowStyle.Normal;
-            Process p = Process.Start(theProcess);
-           // Process p = Process.Start("AntiPwny.exe"); 
-            Thread.Sleep(500); // Allow the process to open it's window
-            //Program.MoveWindow(p.MainWindowHandle, 0, 0, 500, 500, true);
-            SetParent(p.MainWindowHandle, panel1.Handle);
-
-           // Process p = Process.Start("CryptoPreventSetupV8.exe");
-           //Thread.Sleep(500); // Allow the process to open it's window
-            //SetParent(p.MainWindowHandle, panel1.Handle);
-
-        }
+     
 
         [DllImport("user32.dll")]
          static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
         //private extern static bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int X, int Y, int cx, int cy, int uFlags);
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //antiPwny
+         
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys";
+            P1.FileName = @"AntiPwny.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -61,16 +57,15 @@ namespace Star_Killer
 
         private void button2_Click(object sender, EventArgs e)
         {
-
-            ProcessStartInfo theProcess = new ProcessStartInfo("procexp.exe");
-
-            theProcess.WindowStyle = ProcessWindowStyle.Normal;
-
-              Process p1 = Process.Start(theProcess);
-           // Process p1 = Process.Start("procexp64.exe");
-            // Process p = Process.Start("CryptoPreventSetupV8.exe");
-            Thread.Sleep(500); // Allow the process to open it's window
-            SetParent(p1.MainWindowHandle, panel1.Handle);
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys";
+            P1.FileName = @"procexp.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -80,15 +75,30 @@ namespace Star_Killer
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            // User Access
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @".\Pluggys";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Process p3 = Process.Start("CryptoPreventSetupV8.exe");
-            Thread.Sleep(500); // Allow the process to open it's window
-            SetParent(p3.MainWindowHandle, panel1.Handle);
-
+            //Cryptobutton
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys";
+            P1.FileName = @"CryptoPreventSetupV8.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -98,9 +108,16 @@ namespace Star_Killer
 
         private void button4_Click(object sender, EventArgs e)
         {
-           // Process p3 = Process.Start("d7.exe");
-           // Thread.Sleep(500); // Allow the process to open it's window
-         //   SetParent(p3.MainWindowHandle, panel1.Handle);
+            // D7
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\d7";
+            P1.FileName = @"d7.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -110,7 +127,16 @@ namespace Star_Killer
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            //AntiMeter
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\AntiMeter";
+            P1.FileName = @"AntiMeter.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -121,6 +147,61 @@ namespace Star_Killer
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+             _processStartInfo.Arguments = " netstat -a -b  -n -o; $host.enternestedprompt()";
+             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            //TCP
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SysInternals";
+            P1.FileName = @"TCPView.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            //Ram Map
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SysInternals";
+            P1.FileName = @"RAMMap.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            //Shadow Files
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys";
+            P1.FileName = @"ShadowExplorerPortable.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
     }
 }

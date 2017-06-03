@@ -1,62 +1,0 @@
-(5/28/2017 1:10 PM) User backdoor in domain DESKTOP-V45JIVO created by Admin [User Created],
-(5/28/2017 1:10 PM) Password was changed for backdoor [Password Change],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 1:10 PM) User backdoor in domain DESKTOP-V45JIVO deleted by Admin [User Deleted],
-(5/28/2017 1:10 PM) User defaultuser0 in domain DESKTOP-V45JIVO deleted by Admin [User Deleted],
-(5/28/2017 5:22 PM) HKLM\Software\Microsoft\Windows\CurrentVersion\RunZoneAlarm - "C:\Program Files (x86)\CheckPoint\ZoneAlarm\zatray.exe" [New Startup Item],
-(5/28/2017 6:31 PM) User backdoor in domain DESKTOP-V45JIVO created by Admin [User Created],
-(5/28/2017 6:31 PM) Password was changed for backdoor [Password Change],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 6:31 PM) User backdoor in domain DESKTOP-V45JIVO deleted by Admin [User Deleted],
-(5/28/2017 6:31 PM) User defaultuser0 in domain DESKTOP-V45JIVO deleted by Admin [User Deleted],
-(5/28/2017 7:06 PM) HKLM\Software\Microsoft\Windows\CurrentVersion\RunSunJavaUpdateSched - "C:\Program Files (x86)\Common Files\Java\Java Update\jusched.exe" [New Startup Item],
-(5/28/2017 7:09 PM) User Administrator in domain DESKTOP-V45JIVO created by Admin [User Created],
-(5/28/2017 7:09 PM) Password was changed for Administrator [Password Change],
-(5/28/2017 7:09 PM) User Administrator in domain DESKTOP-V45JIVO created by Admin [User Created],
-(5/28/2017 8:01 PM) User backdoor in domain DESKTOP-V45JIVO created by Admin [User Created],
-(5/28/2017 8:01 PM) Password was changed for backdoor [Password Change],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) RDP Logon from 10.50.31.16 [Remote RDP Logon],
-(5/28/2017 8:01 PM) User backdoor in domain DESKTOP-V45JIVO deleted by Admin [User Deleted],
-(5/28/2017 8:01 PM) User defaultuser0 in domain DESKTOP-V45JIVO deleted by Admin [User Deleted],
-(5/28/2017 8:01 PM) User Administrator in domain DESKTOP-V45JIVO created by Admin [User Created],
-(5/28/2017 8:01 PM) Password was changed for Administrator [Password Change],
-(5/28/2017 8:01 PM) User Administrator in domain DESKTOP-V45JIVO created by Admin [User Created],
