@@ -77,9 +77,9 @@ namespace Star_Killer
         {
             // User Access
             ProcessStartInfo _processStartInfo = new ProcessStartInfo();
-            _processStartInfo.WorkingDirectory = @".\Pluggys";
-            _processStartInfo.FileName = @"powershell.exe";
-            _processStartInfo.Arguments = "$host.enternestedprompt()";
+            _processStartInfo.WorkingDirectory = @".\Pluggys\AntiMeter";
+            _processStartInfo.FileName = @"antimeter.exe";
+            _processStartInfo.Arguments = " $host.enternestedprompt()";
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);

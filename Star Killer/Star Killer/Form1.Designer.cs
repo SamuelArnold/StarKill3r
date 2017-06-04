@@ -55,6 +55,7 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,7 +172,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 53);
             this.button9.TabIndex = 9;
-            this.button9.Text = "User Access Script";
+            this.button9.Text = "AntiMeta";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
@@ -349,12 +350,23 @@
             // 
             this.button21.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button21.Location = new System.Drawing.Point(163, 671);
+            this.button21.Location = new System.Drawing.Point(165, 671);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 53);
             this.button21.TabIndex = 25;
             this.button21.Text = "Firewall";
             this.button21.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.button22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button22.Location = new System.Drawing.Point(84, 494);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(75, 53);
+            this.button22.TabIndex = 26;
+            this.button22.Text = "User Access?";
+            this.button22.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -362,6 +374,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1402, 768);
+            this.Controls.Add(this.button22);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
@@ -425,6 +438,7 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
     }
 }
 
