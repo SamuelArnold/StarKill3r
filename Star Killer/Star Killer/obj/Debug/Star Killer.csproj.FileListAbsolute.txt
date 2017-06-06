@@ -10,10 +10,15 @@ C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\Star Killer\Star Ki
 C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\Star Killer\Star Killer\bin\Debug\ObjectListView.dll
 C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\Star Killer.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\Star_Killer.Form1.resources
-C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\Star_Killer.Properties.Resources.resources
 C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\Star Killer.csproj.GenerateResource.Cache
-C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\Star Killer.exe
-C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\Star Killer.pdb
-C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\Star Killer.exe.config
-C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\Star Killer.exe
-C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\Star Killer.pdb
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\StarKiller.Properties.Resources.resources
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\StarKiller.exe.config
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\StarKiller.exe.manifest
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\StarKiller.application
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\StarKiller.exe
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\StarKiller.pdb
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\StarKiller.TrustInfo.xml
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\StarKiller.exe.manifest
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\StarKiller.application
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\StarKiller.exe
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\obj\Debug\StarKiller.pdb

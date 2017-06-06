@@ -52,7 +52,19 @@ namespace Star_Killer
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
+            this.panel1.AutoScroll = false;
+            this.panel1.HorizontalScroll.Enabled = false;
+            this.panel1.HorizontalScroll.Visible = false;
+            this.panel1.HorizontalScroll.Maximum = 0;
+            this.panel1.VerticalScroll.Enabled = true;
+            this.panel1.VerticalScroll.Visible = true;
+            this.panel1.VerticalScroll.Maximum = 0;
+            base.VerticalScroll.Visible = true;
 
+            base.HorizontalScroll.Visible = true;
+
+
+            this.panel1.AutoScroll = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -79,7 +91,7 @@ namespace Star_Killer
             ProcessStartInfo _processStartInfo = new ProcessStartInfo();
             _processStartInfo.WorkingDirectory = @".\Pluggys\AntiMeter";
             _processStartInfo.FileName = @"antimeter.exe";
-            _processStartInfo.Arguments = " $host.enternestedprompt()";
+           _processStartInfo.Arguments = " $host.enternestedprompt()";
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
@@ -154,7 +166,7 @@ namespace Star_Killer
             ProcessStartInfo _processStartInfo = new ProcessStartInfo();
             _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
             _processStartInfo.FileName = @"powershell.exe";
-             _processStartInfo.Arguments = " netstat -a -b  -n -o; $host.enternestedprompt()";
+             _processStartInfo.Arguments = " netstat -a -b  -n -o 25; $host.enternestedprompt()";
              //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
@@ -200,6 +212,118 @@ namespace Star_Killer
             //P1.CreateNoWindow = true;
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = " net use; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = " net view; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = " net start; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+          //  panel1.VerticalScroll.Value = bar.Value;
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = " net session; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            // NBT Stat? Doesnt work???
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "nbtstat –s 15; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+          //  SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = " net user; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "net localgroup administrators; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
