@@ -170,7 +170,7 @@ namespace Star_Killer
              //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(11000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -184,7 +184,7 @@ namespace Star_Killer
             //P1.CreateNoWindow = true;
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -198,7 +198,7 @@ namespace Star_Killer
             //P1.CreateNoWindow = true;
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -212,7 +212,7 @@ namespace Star_Killer
             //P1.CreateNoWindow = true;
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -225,7 +225,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -238,7 +238,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -256,7 +256,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -284,7 +284,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -298,7 +298,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -311,7 +311,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -324,7 +324,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -348,7 +348,7 @@ namespace Star_Killer
             //P1.CreateNoWindow = true;
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -387,7 +387,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -401,7 +401,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -415,7 +415,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -472,6 +472,34 @@ namespace Star_Killer
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
             Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            //Setup py
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./Get_Setup_evolve.bat;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            // Rubber Glue
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Pluggys/RubberGlue";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "python rubberglue.py 2222;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
     }
