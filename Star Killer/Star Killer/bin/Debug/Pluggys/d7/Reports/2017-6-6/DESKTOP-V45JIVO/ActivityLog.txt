@@ -1,0 +1,7 @@
+
+11:40 PM -- Started --
+11:42 PM - Deleted unnecessary temporary files from all user accounts. - 2,495.74 MB Deleted!
+11:42 PM - Deleted temporary internet files from all user accounts. - 197.44 MB Deleted!
+11:46 PM - Ran Virus/Malware scans (ESET)
+12:23 AM - Ran Virus/Malware scans (ESET)
+08:50 AM - Scanned for MBR infections / rootkits (MBAR)

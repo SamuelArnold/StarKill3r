@@ -299,7 +299,7 @@ namespace Star_Killer
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(500);
-          //  SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void button29_Click(object sender, EventArgs e)
@@ -325,6 +325,153 @@ namespace Star_Killer
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            //Ram Map
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\OSfuscate";
+            P1.FileName = @"OSfuscate.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            //BaseLine Analyzer
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://www.microsoft.com/en-us/download/details.aspx?id=7558";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            // KIll CMD
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "taskkill /F /IM cmd.exe /T; $host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            // KIll powershell
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "taskkill /F /IM powershell.exe /T";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            // Open DNS
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"%HOMEDRIVE%%HOMEPATH%";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "netsh interface show interface; netsh dnsclient add dnsserver 'Local Area Connection' 208.67.222.222 1; netsh dnsclient add dnsserver 'Local Area Connection' 208.67.220.220 2; $host.enternestedprompt();$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            //photo Analyzer
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://29a.ch/photo-forensics/#forensic-magnifier";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            //Quip QUuip
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "http://quipqiup.com";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            //RumKIn
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "http://rumkin.com/tools/cipher/";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            //DCODE
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "http://www.dcode.fr/tools-list";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
     }

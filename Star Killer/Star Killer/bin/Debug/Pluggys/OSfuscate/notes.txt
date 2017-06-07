@@ -1,0 +1,12 @@
+Just notes for Adrian
+HKEY_LOCAL_MACHINE\Comm\Adapter Name\Parms\Tcpip\DhcpOptions Windows Mobile
+
+MSFT 5.0
+
+Satori
+
+http://www.fingerbank.org/search.php
+http://exitthematrix.dod.net/matrixmirror/ar01s03.html
+
+4d53465420352e30
+aa0
