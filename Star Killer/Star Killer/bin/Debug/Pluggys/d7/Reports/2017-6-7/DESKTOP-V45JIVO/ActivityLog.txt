@@ -3,3 +3,6 @@
 
 09:57 AM -- Started --
 09:59 AM - Ran Virus/Malware scans (ESET)
+
+10:40 PM -- Started --
+10:41 PM - Scanned for MBR infections / rootkits (MBAR)

@@ -502,5 +502,47 @@ namespace Star_Killer
             Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            // test cat
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day1-PowerShell";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File Control_GUI_App.ps1;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            // Block Cortana
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day1-PowerShell";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File Block-Cortana.ps1;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            // Check Services
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day2-Hardening/Services";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File Get-ServiceIdentity.ps1;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(11500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
     }
 }

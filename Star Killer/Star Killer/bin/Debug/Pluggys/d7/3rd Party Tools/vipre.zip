@@ -1,0 +1,597 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Customer Support &amp; Help Center | VIPRE Antivirus
+</title><meta name="description" content="Visit our customer support help center to get help for your VIPRE product, renew or upgrade your software & more." /> 
+<meta charset="UTF-8" /> 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="4ZMp39SAVEP8ZV_MeGi-NRfM3uKX1FeJqSZdnM8ijBI" />
+<meta name="google-site-verification" content="ylT9W0IwVRXktm2iU06KrG0L1eBv_Dve12ow9o-w6bQ" />
+<meta name="google-site-verification" content="QaoKD4wTfFAGp--tnyOVO0X0y4PVzZIz5Jy77jO63uQ" />
+<meta name="msvalidate.01" content="CC160B61D2789B5ECC2566B5064C1E8A" />
+
+<!--[if lt IE 11]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="//use.typekit.net/kbs6upc.js"></script>
+<script type="text/javascript">            try { Typekit.load(); } catch (e) { }</script>
+<script src="/CMSScripts/Custom/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<link href="/CMSPages/GetResource.ashx?stylesheetname=Site_VIPRE_Antivirus" rel="stylesheet" type="text/css" />
+<link href="/CMSPages/GetResource.ashx?stylesheetname=prettyphoto" rel="stylesheet" type="text/css" />
+
+<!-- Crazy Egg Code -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/3221.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script> 
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/> 
+<LINK REL="SHORTCUT ICON" HREF="/faviconVIPREAntivirus.ico"></head>
+<body class="LTR IE IE7 ENUS ContentBody" >
+    <form method="post" action="/support.aspx" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTkyNDkxNDc3MWRkAg/Ni9rPe6e2COFsVhs3FgxKnYM9bLxLYbmazcAqvwE=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form'];
+if (!theForm) {
+    theForm = document.form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=YB9ryZ1JsTUOUjwaWQM4nMkk4ixBzIP7GoppmJAyS7Y6XFssM4Kns1OkViwi8sK46IksICyiBYnPmLHDfMLf-bmAXabsmPF1lqoK5AJ0mCw1&amp;t=635792874349294682" type="text/javascript"></script>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script src="/CMSPages/GetResource.ashx?scriptfile=%7e%2fCMSScripts%2fWebServiceCall.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }__doPostBack('m',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }WebForm_DoCallback('m',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=BOd4HqNQ1kqnkTgm4SprV7loaXYlpY6EtZO8NbmtC51y8YblMmnkPHnrotfA8OG9ra0reBy4qkUh1fcIXeFwABTYSKft_okwflkSAaaD5hTVlqOQzmg7i4f0_XSprfwc0&amp;t=3a1336b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=t700K9nuYVxaRH_GUsi7TkblHKCRox453C1KsmYzyBYPXk6KeRjkXgyVkE_FCleV2yHSdyFUHDPIFmPJqm57DJPhrCbu5ojJ7V1XGGNos-gUGJ46fCmrnU4ROgmIPSOyxAyrY4gvUVBrwyYxN6qRfg2&amp;t=3a1336b1" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('manScript', 'form', ['tctxM',''], [], [], 90, '');
+//]]>
+</script>
+<div id="CMSHeaderDiv">
+	<!-- -->
+</div>
+    <div id="ctxM">
+
+</div>
+    
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TG6TP7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>    (function (w, d, s, l, i) {w[l]= w[l] || []; w[l].push({'gtm.start':new Date().getTime(), event: 'gtm.js'}); var f= d.getElementsByTagName(s)[0], j= d.createElement(s), dl= l != 'dataLayer' ? '&l=' + l : ''; j.async= true; j.src= '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);})(window, document, 'script', 'dataLayer', 'GTM-TG6TP7');</script>
+<!-- End Google Tag Manager -->
+
+<!--[if lt IE 11]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Inline SVG sprite -->
+  <script type="text/javascript" src="/CMSScripts/Custom/svg-sprite.js"></script>
+
+  <!-- *** Nav *** -->
+  <header class="vp-Nav navbar navbar-default">
+    <div class="vp-Nav-secondary hidden-xs hidden-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <nav class="pull-right clearfix">
+              <ul class="vp-Nav-list">
+                <li><a href="/partners.aspx" title="Partner with us">Partner with us</a></li>
+                <li><a href="/about.aspx" title="About VIPRE">About Us</a></li>
+                <li><a href="/renew.aspx" title="Renew">Renew</a></li>
+                <li><a href="/upgrade.aspx" title="Upgrade">Upgrade</a></li>
+                <li><a href="https://portal.threattracksecurity.com/login.aspx" title="Partner login">Partner login</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vp-Nav-primary">
+      <div class="container">
+        <div class="vp-Nav-affix">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="vp-Nav-header navbar-header">
+            <div class="vp-IconBurger">
+              <span></span><span></span><span></span>
+            </div>
+            <a class="vp-Nav-brand" href="/">
+              <svg viewBox="0 0 152 37" class="vp-Logo">
+                <use xlink:href="#vp-Svg-logoVipre" id="vp-Use-logoVipreDefault"></use>
+              </svg>
+              Vipre
+            </a>
+          </div>
+
+<!-- Start: Desktop navigation markup -->
+      <nav class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/home-antivirus.aspx" title="VIPRE for Home" class="active">VIPRE for Home</a></li>
+          <li><a href="/business.aspx" title="VIPRE for Business">VIPRE for Business</a></li>
+          <li><a href="/why-vipre.aspx" title="Why VIPRE?">Why VIPRE?</a></li>
+          <li><a href="/support.aspx" title="Support">Support</a></li>
+          <li><a href="/resources.aspx" title="Resources">Resources</a></li>
+          <li class="vp-DropdownButton-item">
+            <div class="vp-DropdownButton">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Buy Now <span class="vp-IconCaret"></span></a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li class="vp-DropdownButton-item"><a class="vp-Button vp-Button--home vp-Button--fullWidth" href="https://shop.vipreantivirus.com/582/purl-VASFH">For Home</a></li>
+                <li class="vp-DropdownButton-item"><a class="vp-Button vp-Button--business vp-Button--fullWidth" href="/business.aspx">For Business</a></li>
+              </ul>
+            </div>
+          </li>
+
+        </ul>
+      </nav>
+<!-- End: Desktop navigation markup -->
+      <div class="vp-Nav-overlayBackground"></div>
+<!-- Start: Mobile & tablet navigation markup -->
+      <div class="collapse vp-Nav-navWrap hidden-md hidden-lg">
+        <nav class="vp-Nav-primary">
+          <div class="vp-Nav-affix">
+            <ul class="nav navbar-nav">
+              <li><a href="/home-antivirus.aspx" title="VIPRE for Home" class="active">VIPRE for Home</a></li>
+              <li>
+                <div class="vp-Nav-overlayFirstMenuItem vp-Nav-overlayOpenFirstItem">
+                  <a href=".vp-Nav-overlaySubMenu" data-toggle="collapse">
+                    <svg viewBox="0 0 23 39" class="vp-IconSliderArrow vp-IconSliderArrow--navOverlay">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#vp-Svg-iconSliderArrow" id="vp-Use-iconSliderArrow"></use>
+                    </svg>
+                  </a>
+                  <a href=".vp-Nav-overlaySubMenu" title="VIPRE for Business" data-toggle="collapse" class="vp-Nav-overlayFirstLink">VIPRE for Business<span class="sr-only">(current)</span></a>
+                </div>
+                <ul class="vp-Nav-overlaySubMenu collapse">
+                  <li class="vp-Nav-overlaySubMenuItem"><a href="/business.aspx" title="Business Overview">Business Overview</a></li>
+                  <li class="vp-Nav-overlaySubMenuItem"><a href="/industries.aspx" title="Solutions by Industry">Solutions By Industry</a></li>
+                  <li class="vp-Nav-overlaySubMenuItem"><a href="/partners.aspx" title="Partners">Partners</a></li>
+                </ul>
+              </li>
+              <li><a href="/why-vipre.aspx" title="Why VIPRE?">Why VIPRE?</a></li>
+              <li><a href="/support.aspx" title="Support">Support</a></li>
+              <li><a href="/resources.aspx" title="Resources">Resources</a></li>
+            </ul>
+          </div><!-- /.vp-Nav-affix -->
+        </nav>
+        <nav class="vp-Nav-secondary">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="vp-Button vp-Button--home" href="/home-antivirus/free-antivirus-download-trial.aspx" title="Try It Free For Home">Try It Free For Home</a></li>
+            <li><a class="vp-Button vp-Button--business" href="/business/free-antivirus-download-trial.aspx" title="Try It Free For Business">Try It Free For Business</a></li>
+            <li class="vp-Nav-secondaryItem"><a href="/partners.aspx" title="Partner With Us">Partner With Us</a></li>
+            <li class="vp-Nav-secondaryItem"><a href="/about.aspx" title="About Vipre">About Us</a></li>
+            <li class="vp-Nav-secondaryItem"><a href="/renew.aspx" title="Renew">Renew</a></li>
+            <li class="vp-Nav-secondaryItem"><a href="/upgrade.aspx" title="Upgrade">Upgrade</a></li>
+            <li class="vp-Nav-secondaryItem"><a href="https://portal.threattracksecurity.com/login.aspx" title="Partner Login">Partner Login</a></li>
+          </ul>
+        </nav>
+      </div><!-- /.navbar-collapse -->
+<!-- End: Mobile & tablet navigation markup -->
+
+      </div><!-- vp-Nav-primary -->
+    </div><!-- /.container-fluid -->
+  </div>
+  </header>
+
+
+
+<!-- Support - Hero -->
+<section class="vp-Message vp-Message--hero vp-Message--whyVipre vp-Message--support">
+  <div class="container">
+	<div class="row">
+		<div class="col-md-12 col-xs-12">
+			<header class="vp-Message-header">
+				<h1 class="vp-Message-heading">
+					Need Assistance?</h1>
+			</header>
+			<div class="vp-Message-body">
+				<p>
+					Contact our free U.S.-based technical support team or use any of our online help tools.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</section>
+
+<!-- *** Product Select *** -->
+<section class="vp-ProductSelect">
+  <div class="container">
+	<header class="vp-ProductSelect-header">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="vp-ProductSelect-heading">
+					Select a Product</h2>
+				<h2 class="vp-ProductSelect-subheading">
+					Please select the VIPRE product for which you need technical assistance from one of the pull-down menus below.</h2>
+			</div>
+		</div>
+		<!-- /.row --></header>
+	<!-- /.vp-ProductSelect-header -->
+	<div class="vp-ProductSelect-body">
+		<div style="color: #6a8191;font-size: 20px;font-weight: 300;">
+			Need help updating VIPRE for home? Click <a href="/vipreupdate.aspx">here</a>.<br />
+			&nbsp;</div>
+		<div class="row">
+			<div class="vp-ProductSelect-dropdownWrap col-xs-12 col-sm-6">
+				<select class="vp-ProductSelect-dropdown vp-SelectDropdown vp-SelectDropdown--bussines selectpicker" data-bold-title="VIPRE for Business" data-title="Select a VIPRE for Business Product" data-vp-boldselect="" id="vp-Support-Business"><option value="http://vavsupport.threattracksecurity.com/support/home">VIPRE Advanced Security</option><option value="http://vavsupport.threattracksecurity.com/">VIPRE Endpoint Security</option><option value="http://vavsupport.threattracksecurity.com/">VIPRE Business Premium</option><option value="http://vavsupport.threattracksecurity.com/">VIPRE Antivirus Business</option><option value="http://vpxsupport.threattracksecurity.com/">VIPRE Email Security for Exchange</option><option value="http://sohosupport.threattracksecurity.com/">VIPRE Internet Security Small Office</option><option value="http://sohosupport.threattracksecurity.com/">VIPRE Antivirus Small Office</option></select></div>
+			<!-- /.col -->
+			<div class="vp-ProductSelect-dividerWrap col-xs-12 hidden-xs hidden-sm">
+				<span class="vp-ProductSelect-divider">or</span></div>
+			<!-- /.col -->
+			<div class="vp-ProductSelect-dropdownWrap col-xs-12 col-sm-6">
+				<select class="vp-ProductSelect-dropdown vp-SelectDropdown vp-SelectDropdown--home selectpicker" data-bold-title="VIPRE for Home" data-title="Select a VIPRE for Home Product" data-vp-boldselect="" id="vp-Support-Home"><option value="https://support.vipreantivirus.com/support/home">VIPRE Advanced Security<option value="http://support.vipreantivirus.com/">VIPRE Internet Security Pro</option><option value="http://support.vipreantivirus.com/">VIPRE Internet Security</option><option value="http://support.vipreantivirus.com/">VIPRE Antivirus</option><option value="http://mobilesupport.vipreantivirus.com/">VIPRE Mobile Security</option><option value="http://pvsupport.vipreantivirus.com/">VIPRE Password Vault</option></select></div>
+			<!-- /.col --></div>
+		<!-- /.row --></div>
+	<!-- /.vp-ProductSelect-body --></div>
+<!-- /.container --><script>
+ $(function() {
+  $("#vp-Support-Business").change(function () {
+   window.location = this.value;
+  });
+  
+  $("#vp-Support-Home").change(function () {
+   window.location = this.value;
+  });
+ });
+</script>
+
+
+
+
+</section>
+
+<!-- Support - Submit a False Positive Form -->
+<section class="vp-SubmitForm">
+  <div class="container">
+	<header class="vp-SubmitForm-header">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="vp-SubmitForm-heading">
+					Submit a File or URL</h2>
+				<h2 class="vp-SubmitForm-subheading">
+					We constantly strive to keep our malware database accurate and up-to-date. However, it is possible that you may encounter threats we do not yet detect, or we may have incorrectly identified legitimate software (or parts thereof) or websites to be malicious.<br />
+					<br />
+					You can submit such discoveries, and our lab will analyze the information you provide and update our database as needed.<br />
+					<br />
+					What would you like to submit?</h2>
+			</div>
+		</div>
+		<!-- /.row --></header>
+	<!-- /.vp-SubmitForm-header -->
+	<div class="vp-Rescue-body">
+		<a href="/support/submissions/blocked-site.aspx"><strong>Blocked Website</strong></a><br />
+		Getting the VIPRE Blocked Website page? Submit the website address to our lab for review if you feel it is incorrectly blocked.<br />
+		<br />
+		<a href="/support/submissions/false-positive.aspx"><strong>False Positive</strong></a><br />
+		Is VIPRE flagging software as malicious when it&#39;s not? Submit the file to our lab for review.<br />
+		<br />
+		<a href="/support/submissions/missed-threat.aspx"><strong>Missed Threat</strong></a><br />
+		Is VIPRE not catching a threat? Submit the threat to our lab for further analysis.<br />
+		<br />
+		<strong>Need Malware Removal Assistance?</strong><br />
+		VIPRE offers FREE malware remediation for all VIPRE customers with a current license key!</div>
+	<!-- /.vp-SubmitForm-body --></div>
+
+
+
+
+</section>
+
+<!-- VIPRE Rescue Section -->
+<section class="vp-Rescue" id="vp-Rescue">
+  <script> 
+ $(document).ready(function(){
+  $('.printBtn').click(function(event){   
+   window.frames["print_frame"].document.body.innerHTML = '<br />' + $('#printMe').html();
+   window.frames["print_frame"].window.focus();
+   window.frames["print_frame"].window.print();
+   
+   event.preventDefault();
+  });
+ });
+</script>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<header>
+				<h2 class="vp-Rescue-mainTitle">
+					VIPRE Rescue</h2>
+			</header>
+			<div class="vp-Rescue-body">
+				<p>
+					VIPRE Rescue is a handy, easy to use tool designed to clean your computer if you are already infected with a virus and your operating system is not working properly as a result of the infection. If you are already running VIPRE and a virus has disabled it, you can still run this program to clean your computer..</p>
+			</div>
+		</div>
+		<!-- ./col --></div>
+	<!-- ./row -->
+	<div class="row vp-Rescue-buttonsWrap">
+		<div class="col-xs-12 vp-Rescue-buttonsWrap">
+			<a class="vp-Button" href="http://go.vipreantivirus.com/?linkid=1605">Download Now</a> <a class="vp-Button vp-Button--home printBtn" href="javascript:;">Print Instructions</a></div>
+		<!-- ./col --></div>
+	<!-- ./row -->
+	<div class="row vp-Rescue-row">
+		<div class="col-xs-12" id="printMe">
+			<h2 class="vp-Rescue-listHeader">
+				Instructions</h2>
+			<ol class="vp-Rescue-list">
+				<li>
+					Boot the computer in &quot;Safe Mode&quot; (press F8 when the computer starts to boot. When the boot screen appears, use the down arrow to highlight the selection).</li>
+				<li>
+					Download the VIPRE Rescue application. You can use a different computer to do this if needed.</li>
+				<li>
+					Save it to a USB drive or other portable media.</li>
+				<li>
+					Run the file.</li>
+				<li>
+					Click Yes to extract VIPRE Rescue.</li>
+				<li>
+					Click Unzip.</li>
+				<li>
+					Sit back and allow VIPRE to clean your machine.</li>
+			</ol>
+			<div class="vp-Rescue-body">
+				<p>
+					VIPRE Rescue antivirus definitions change daily. Check the website to get the latest definitions.</p>
+			</div>
+		</div>
+		<!-- ./col --></div>
+	<!-- ./row -->
+	<div class="row">
+		<div class="col-xs-12">
+			<a class="vp-Button" href="http://go.vipreantivirus.com/?linkid=1605">Download Now</a> <a class="vp-Button vp-Button--home printBtn" href="javascript:;">Print Instructions</a></div>
+	</div>
+</div>
+<!-- ./container --><iframe frameborder="0" height="0" name="print_frame" src="about:blank" style="display: none;" width="0"></iframe>
+
+
+
+
+</section>
+
+<!-- VIPRE Downloads Section -->
+<section class="vp-Download vp-Download--original" id="vp-Download">
+  <div class="container" id="update">
+	<div class="row">
+		<div class="vp-Download-wrapper col-xs-12">
+			<h2 class="vp-Download-header">
+				Update VIPRE</h2>
+			<div class="vp-Download-body">
+				<p>
+					To reinstall or ensure you&rsquo;re using the latest version of VIPRE, enter your license key below to download the most current VIPRE install file.</p>
+			</div>
+			<div class="vp-Download-contentWrapper">
+				
+
+<script src="/CMSScripts/Custom/vanilla-masker.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    function validate() {
+        if (document.getElementById("p_lt_ctl00_pageplaceholder_p_lt_ctl04_editabletext4_ucEditableText_widget1_ctl00_txtKey").value == '') {
+            alert('Please enter your license key');
+            return false;
+        }
+
+        return true;
+    }
+
+    $(function () {
+        $("#p_lt_ctl00_pageplaceholder_p_lt_ctl04_editabletext4_ucEditableText_widget1_ctl00_txtKey").bind("keyup", function (e) {
+            VMasker(document.getElementById("p_lt_ctl00_pageplaceholder_p_lt_ctl04_editabletext4_ucEditableText_widget1_ctl00_txtKey")).maskPattern('SSSSS-SSSSS-SSSSS-SSSSS-SSSSS');
+        });
+    });
+</script>
+
+<div class="vp-Download-form" id="vp-Form-download">
+    <div class="vp-Download-key">
+        <div class="vp-Download-keyForm form-group">
+            
+        </div>
+
+        <div class="vp-Download-keyForm form-group">
+            <label for="vp-Download-keyInput" class="vp-Download-fieldTitle control-label">Product Key</label>
+            <input name="p$lt$ctl00$pageplaceholder$p$lt$ctl04$editabletext4$ucEditableText$widget1$ctl00$txtKey" type="text" maxlength="29" id="p_lt_ctl00_pageplaceholder_p_lt_ctl04_editabletext4_ucEditableText_widget1_ctl00_txtKey" class="form-control vp-Download-keyInput" />
+        </div>
+    </div>
+
+    <div class="vp-Download-switchContainer">
+        <div class="vp-Download-submitButtonWrapper">
+            <input type="submit" name="p$lt$ctl00$pageplaceholder$p$lt$ctl04$editabletext4$ucEditableText$widget1$ctl00$btnDownload" value="Submit" onclick="javascript:return validate();" id="p_lt_ctl00_pageplaceholder_p_lt_ctl04_editabletext4_ucEditableText_widget1_ctl00_btnDownload" class="vp-Button" />
+        </div>
+    </div>
+</div></div>
+			<!-- ./vp-Download-contentWrapper --></div>
+		<!-- ./col --></div>
+	<!-- ./row --></div>
+<!-- ./container -->
+
+
+
+
+</section>
+
+<!-- *** Footer *** -->
+  <footer class="vp-Footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <nav class="vp-Footer-primaryNav">
+            <ul>
+              <li><a href="/about.aspx#vp-About--contact">Contact Us</a></li>
+              <li><a href="http://www.threattracksecurity.com/company/careers.aspx">Careers</a></li>
+              <li><a href="http://blog.vipreantivirus.com/">Blog</a></li>
+              <li><a href="/resources.aspx">Security Resources</a></li>
+            </ul>
+          </nav>
+
+          <section class="vp-Social">
+                <h3 class="vp-Social-title">Follow Us</h3>
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/VIPREAntivirusHome/" class="vp-IconFacebook">
+                      <svg viewBox="0 0 32 32">
+                        <use xlink:href="#vp-Svg-iconFacebook" id="vp-Use-iconFacebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/VIPRESecurity" class="vp-IconTwitter">
+                      <svg viewBox="0 0 32 32">
+                        <use xlink:href="#vp-Svg-iconTwitter" id="vp-Use-iconTwitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://plus.google.com/+Threattracksecurity" class="vp-IconGooglePlus">
+                      <svg viewBox="0 0 32 32">
+                        <use xlink:href="#vp-Svg-iconGooglePlus" id="vp-Use-iconGooglePlus"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/channel/UCAYcf97zRuCMWvTKaUXUR7A" class="vp-IconYoutube">
+                      <svg viewBox="0 0 32 32">
+                        <use xlink:href="#vp-Svg-iconYoutube" id="vp-Use-iconYoutube"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </section>
+
+          <nav class="vp-Footer-secondaryNav">
+            <ul>
+              <li><a href="http://www.threattracksecurity.com/privacy.aspx">Privacy</a></li>
+              <li><a href="http://www.threattracksecurity.com/website-terms-of-use.aspx">Terms of Use</a></li>
+              <li><a href="http://www.threattracksecurity.com/cookies.aspx">Cookies</a></li>
+              <li><a href="http://www.threattracksecurity.com/copyright.aspx">Copyright</a></li>
+              <li><a href="http://www.threattracksecurity.com/vipre-eula.aspx">EULA</a></li>
+              <!--<li><a href="/sitemap.aspx">Site Map</a></li>-->
+            </ul>
+          </nav>
+
+          <div class="vp-Footer-copyright">
+          <p>© Copyright 2017 ThreatTrack Security, <span class="u-mobileAndTabletClearFix">&nbsp;</span>Inc. 311 Park Place Blvd, Suite #300, <span class="u-mobileAndTabletClearFix">&nbsp;</span>Clearwater, FL 33759</p>
+          </div>
+        </div><!-- col -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </footer><!-- /.vp-Footer -->
+
+<!-- Marketo Munchkin Code -->
+<script type="text/javascript">
+(function() {
+  var didInit= false;
+  function initMunchkin() {
+    if(didInit=== false) {
+      didInit= true;
+      Munchkin.init('395-QPJ-712');
+    }
+  }
+  var s= document.createElement('script');
+  s.type= 'text/javascript';
+  s.async= true;
+  s.src= '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange= function() {
+    if (this.readyState== 'complete' || this.readyState== 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload= initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+<!-- End Marketo Munchkin Code -->
+
+<!-- LinkedIn Code -->
+<script type="text/javascript">
+  _bizo_data_partner_id = "8842";
+</script>
+<script type="text/javascript">
+(function() {
+  var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";
+  b.async = true;
+  b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
+  s.parentNode.insertBefore(b, s);
+})();
+</script>
+<noscript>
+  <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=8842&fmt=gif" />
+</noscript>
+<!-- End LinkedIn Code -->
+
+<!-- * SCRIPTS * -->
+<script src="/CMSScripts/Custom/vendor.min.js"></script>
+<script src="/CMSScripts/Custom/vipreantivirus.js"></script>
+<script src="/CMSScripts/Custom/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">loadNavOverlay();loadNavScroll();boldSelectTitle();readFileName();loadDownload();</script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+      $("a[rel^='prettyPhoto']").prettyPhoto({ theme: 'facebook', deeplinking: false });
+    });
+</script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+WebServiceCall('https://www.vipreantivirus.com/CMSPages/WebAnalyticsService.asmx','LogHits', '{"pageGUID":"f56f16ae-a228-4925-ad75-5fb4ce743345", "referrer":""}')
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/WebResource.axd?d=1CEny2mEen-G7nfQZIRFJjGJrgwFi1KqXZG6tO207MY3KiaLpT-sXvpdikCA1NY8pOCb4CsxSaPz1uWxVNYK86ZyIcbAS7OgeDHKj7FEpeM1&t=635792874349294682';
+WebForm_InitCallback();
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+</body>
+</html>
