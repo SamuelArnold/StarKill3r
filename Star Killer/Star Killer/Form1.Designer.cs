@@ -81,6 +81,10 @@
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.button44 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -100,9 +104,7 @@
             this.button39 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
+            this.button45 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -604,6 +606,7 @@
             // panel3
             // 
             this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.button45);
             this.panel3.Controls.Add(this.button18);
             this.panel3.Controls.Add(this.button17);
             this.panel3.Controls.Add(this.button2);
@@ -769,6 +772,7 @@
             // panel10
             // 
             this.panel10.AutoScroll = true;
+            this.panel10.Controls.Add(this.button44);
             this.panel10.Controls.Add(this.button43);
             this.panel10.Controls.Add(this.button42);
             this.panel10.Controls.Add(this.button41);
@@ -780,6 +784,58 @@
             this.panel10.Size = new System.Drawing.Size(208, 115);
             this.panel10.TabIndex = 0;
             this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
+            // 
+            // button44
+            // 
+            this.button44.BackColor = System.Drawing.Color.SeaGreen;
+            this.button44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button44.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button44.Location = new System.Drawing.Point(84, 121);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(75, 50);
+            this.button44.TabIndex = 44;
+            this.button44.Text = "ResetPass";
+            this.button44.UseVisualStyleBackColor = false;
+            this.button44.Click += new System.EventHandler(this.button44_Click);
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.SeaGreen;
+            this.button43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button43.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button43.Location = new System.Drawing.Point(3, 121);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(75, 50);
+            this.button43.TabIndex = 43;
+            this.button43.Text = "Get Services";
+            this.button43.UseVisualStyleBackColor = false;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.SeaGreen;
+            this.button42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button42.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button42.Location = new System.Drawing.Point(84, 65);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(75, 50);
+            this.button42.TabIndex = 42;
+            this.button42.Text = "Block Cortana";
+            this.button42.UseVisualStyleBackColor = false;
+            this.button42.Click += new System.EventHandler(this.button42_Click);
+            // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.SeaGreen;
+            this.button41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button41.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button41.Location = new System.Drawing.Point(3, 65);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(75, 50);
+            this.button41.TabIndex = 41;
+            this.button41.Text = "Test ";
+            this.button41.UseVisualStyleBackColor = false;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
             // button34
             // 
@@ -1015,44 +1071,18 @@
             this.label2.Text = "Setup";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button41
+            // button45
             // 
-            this.button41.BackColor = System.Drawing.Color.SeaGreen;
-            this.button41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button41.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button41.Location = new System.Drawing.Point(3, 65);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(75, 50);
-            this.button41.TabIndex = 41;
-            this.button41.Text = "Test ";
-            this.button41.UseVisualStyleBackColor = false;
-            this.button41.Click += new System.EventHandler(this.button41_Click);
-            // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.Color.SeaGreen;
-            this.button42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button42.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button42.Location = new System.Drawing.Point(84, 65);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(75, 50);
-            this.button42.TabIndex = 42;
-            this.button42.Text = "Block Cortana";
-            this.button42.UseVisualStyleBackColor = false;
-            this.button42.Click += new System.EventHandler(this.button42_Click);
-            // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.Color.SeaGreen;
-            this.button43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button43.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button43.Location = new System.Drawing.Point(3, 121);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(75, 50);
-            this.button43.TabIndex = 43;
-            this.button43.Text = "Get Services";
-            this.button43.UseVisualStyleBackColor = false;
-            this.button43.Click += new System.EventHandler(this.button43_Click);
+            this.button45.BackColor = System.Drawing.Color.SeaGreen;
+            this.button45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button45.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button45.Location = new System.Drawing.Point(78, 115);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(75, 50);
+            this.button45.TabIndex = 23;
+            this.button45.Text = "User Settings";
+            this.button45.UseVisualStyleBackColor = false;
+            this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
             // Form1
             // 
@@ -1061,7 +1091,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1588, 828);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.groupBox3);
@@ -1172,6 +1202,8 @@
         private System.Windows.Forms.Button button41;
         private System.Windows.Forms.Button button42;
         private System.Windows.Forms.Button button43;
+        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button button45;
     }
 }
 

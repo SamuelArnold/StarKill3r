@@ -544,5 +544,34 @@ namespace Star_Killer
             Thread.Sleep(11500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            // reset Pass
+     
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File easypassword2.ps1;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(11500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            // User Settings Windows
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "netplwiz;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(11500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
     }
 }

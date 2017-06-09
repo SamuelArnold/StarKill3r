@@ -1,0 +1,11 @@
+
+12:16 AM -- Started --
+12:24 AM - Repaired file system and registry user permissions.
+
+09:00 AM -- Started --
+
+09:02 AM -- Started --
+09:04 AM - Repaired WMI, WBEM Repository, and DCOM components.
+
+09:07 AM -- Started --
+09:08 AM -- Stopped --
