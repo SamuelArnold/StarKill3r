@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StarKiller.exe" size="4475392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StarKiller.exe" size="4473344">
       <assemblyIdentity name="StarKiller" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CF6UnTxGvpXHpmEqBXJzzYDI2FrLEZM7baJ9KwMlEgo=</dsig:DigestValue>
+        <dsig:DigestValue>ROXzn8vd3FULKHu48Bp8wyWmAxyeoT5XFztZ5PEYsAM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

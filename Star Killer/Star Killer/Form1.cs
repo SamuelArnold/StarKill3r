@@ -573,5 +573,33 @@ namespace Star_Killer
             Thread.Sleep(11500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            //Vahalla Files
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys";
+            P1.FileName = @"honeypot.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(1000);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            //RumKIn
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://ninite.com";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
     }
 }
