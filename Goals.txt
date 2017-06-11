@@ -1,0 +1,82 @@
+-------------------------------------------------------
+-------------------------------------------------------
+Programs 
+-------------------------------------------------------
+-------------------------------------------------------
+
+Integrate Rekal (with script to set it up)
+	Need to create .DMP file of whole system.
+
+Integrate Voltality with Evolve (plug in with script to set up) and Vara. 
+	need to launch analysis of .DMP file
+
+Integrate Kippo Honey Pot (with script to set it up) 
+
+Integrate find more Open Source Honey pots and obsification tools.
+	Super HoneyPot 
+	Honey Pot Linux OS VM 
+	honey nets? 
+
+integrate button for WebLinks
+	RStudio
+	Forensic Tool Kit       - 
+	SANS Forensic Image OS  - Set up for VM?
+	SANS                    - guides , WIndows, windows intrusion detection and powershell
+	Virtual Box             - Download
+	Process Lasso           - Download
+	Sys Admin tools         - Download / remove sys admin tools (breaks contract)
+
+Virtual box images
+	PFSENSE - Preconfiguredddd. Firewall. 
+	Ossec / Ossim image - set up IDS
+
+-------------------------------------------------------
+-------------------------------------------------------
+Scripts
+-------------------------------------------------------
+-------------------------------------------------------
+
+Fake Recourses and folders;? 
+
+Fake website? 
+
+Fake Admin account? 
+
+Turn Off Remote Desktop etc.
+	turn off port? maybe seperate script because may run a RDP honey?
+
+Turn on Shadow copies
+
+Integrate  GPO / Applocker
+	- Prevent CMD and powershell from running unless Admin
+	- prevent PowerPrick attack on powershell
+		- Prevent _____ DLL and VBS scripts from running but keep PS1 files (we use ps1 files)
+		- MORE INFO AT https://www.sixdub.net/?p=367 for guide
+	- NSA Level GPO
+		
+Implement SANS Sec505 scripts
+	- NSA Level GPO
+	- Montitor service creation...
+	- etc
+ 
+Integrate Encryption of whole C drive ( BitLcoker or whatever program, IDeally opensource or built in )
+	prompt for password.
+
+
+Switch permissions of C:/ , C:/Program_Files , C:/ ... System 32.
+
+Integrate Active Domain tool (seperate from Local Admin Scripts)
+	reset all passwords script (all but default and guest and and Admin)
+
+
+Open Ports for Honey Pots.
+
+
+https://github.com/adhdproject/adhdproject.github.io
+	ADHD github -where rubber glue came from
+
+https://github.com/EnclaveConsulting/SANS-SEC505
+	Sans tools
+
+ex CCDC
+https://jordanpotti.com/2017/01/20/basics-of-windows-incident-response/

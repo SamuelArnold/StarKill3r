@@ -601,5 +601,33 @@ namespace Star_Killer
             Thread.Sleep(10);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            //ADS Detetor
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\ADS Mangager";
+            P1.FileName = @"ADSManager.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            //System Explorer
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SystemExplorer";
+            P1.FileName = @"SystemExplorerSetup.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
     }
 }

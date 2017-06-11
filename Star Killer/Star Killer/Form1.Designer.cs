@@ -92,6 +92,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.button47 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
@@ -106,7 +107,7 @@
             this.button39 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button47 = new System.Windows.Forms.Button();
+            this.button48 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -337,14 +338,15 @@
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.SeaGreen;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F);
             this.button16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button16.Location = new System.Drawing.Point(3, 171);
+            this.button16.Location = new System.Drawing.Point(-2, 172);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 50);
             this.button16.TabIndex = 20;
-            this.button16.Text = "ADS detector";
+            this.button16.Text = "ADS Manager";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -547,7 +549,6 @@
             // 
             this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.button25);
-            this.panel2.Controls.Add(this.button16);
             this.panel2.Controls.Add(this.button21);
             this.panel2.Controls.Add(this.button13);
             this.panel2.Controls.Add(this.button8);
@@ -609,7 +610,9 @@
             // panel3
             // 
             this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.button48);
             this.panel3.Controls.Add(this.button45);
+            this.panel3.Controls.Add(this.button16);
             this.panel3.Controls.Add(this.button18);
             this.panel3.Controls.Add(this.button17);
             this.panel3.Controls.Add(this.button2);
@@ -926,6 +929,19 @@
             this.panel9.Size = new System.Drawing.Size(205, 109);
             this.panel9.TabIndex = 0;
             // 
+            // button47
+            // 
+            this.button47.BackColor = System.Drawing.Color.SeaGreen;
+            this.button47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button47.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button47.Location = new System.Drawing.Point(7, 112);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(75, 50);
+            this.button47.TabIndex = 43;
+            this.button47.Text = "Ninite";
+            this.button47.UseVisualStyleBackColor = false;
+            this.button47.Click += new System.EventHandler(this.button47_Click);
+            // 
             // button38
             // 
             this.button38.BackColor = System.Drawing.Color.SeaGreen;
@@ -1097,18 +1113,18 @@
             this.label2.Text = "Setup";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button47
+            // button48
             // 
-            this.button47.BackColor = System.Drawing.Color.SeaGreen;
-            this.button47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button47.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button47.Location = new System.Drawing.Point(7, 112);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(75, 50);
-            this.button47.TabIndex = 43;
-            this.button47.Text = "Ninite";
-            this.button47.UseVisualStyleBackColor = false;
-            this.button47.Click += new System.EventHandler(this.button47_Click);
+            this.button48.BackColor = System.Drawing.Color.Goldenrod;
+            this.button48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button48.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button48.Location = new System.Drawing.Point(0, 115);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(75, 50);
+            this.button48.TabIndex = 24;
+            this.button48.Text = "System Explorer";
+            this.button48.UseVisualStyleBackColor = false;
+            this.button48.Click += new System.EventHandler(this.button48_Click);
             // 
             // Form1
             // 
@@ -1233,6 +1249,7 @@
         private System.Windows.Forms.Button button45;
         private System.Windows.Forms.Button button46;
         private System.Windows.Forms.Button button47;
+        private System.Windows.Forms.Button button48;
     }
 }
 

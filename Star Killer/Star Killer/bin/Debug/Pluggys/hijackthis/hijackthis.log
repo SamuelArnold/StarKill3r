@@ -1,0 +1,70 @@
+Logfile of Trend Micro HijackThis v2.0.5
+Scan saved at 9:51:20 AM, on 6/10/2017
+Platform: Unknown Windows (WinNT 6.02.1008)
+MSIE: Internet Explorer v11.0 (11.00.15063.0000)
+
+
+Boot mode: Normal
+
+Running processes:
+C:\Users\Admin\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+C:\Program Files (x86)\System Explorer\SystemExplorer.exe
+C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\HijackThis.exe
+
+R1 - HKCU\Software\Microsoft\Internet Explorer\Main,Search Page = http://go.microsoft.com/fwlink/?LinkId=54896
+R0 - HKCU\Software\Microsoft\Internet Explorer\Main,Start Page = http://go.microsoft.com/fwlink/p/?LinkId=255141
+R1 - HKLM\Software\Microsoft\Internet Explorer\Main,Default_Page_URL = http://go.microsoft.com/fwlink/p/?LinkId=255141
+R1 - HKLM\Software\Microsoft\Internet Explorer\Main,Default_Search_URL = http://go.microsoft.com/fwlink/?LinkId=54896
+R1 - HKLM\Software\Microsoft\Internet Explorer\Main,Search Page = http://go.microsoft.com/fwlink/?LinkId=54896
+R0 - HKLM\Software\Microsoft\Internet Explorer\Main,Start Page = http://go.microsoft.com/fwlink/p/?LinkId=255141
+R0 - HKLM\Software\Microsoft\Internet Explorer\Search,SearchAssistant = 
+R0 - HKLM\Software\Microsoft\Internet Explorer\Search,CustomizeSearch = 
+R0 - HKCU\Software\Microsoft\Internet Explorer\Main,Local Page = %11%\blank.htm
+R0 - HKLM\Software\Microsoft\Internet Explorer\Main,Local Page = C:\Windows\SysWOW64\blank.htm
+R0 - HKCU\Software\Microsoft\Internet Explorer\Toolbar,LinksFolderName = 
+F2 - REG:system.ini: UserInit=
+O4 - HKLM\..\Run: [GitHubDesktopMachineInstaller] %ProgramFiles%\GitHub Desktop Installer\GitHubDesktop.exe --checkInstall
+O4 - HKCU\..\Run: [OneDrive] "C:\Users\Admin\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+O4 - HKCU\..\Run: [AntiPwny] C:\Users\Admin\Desktop\Linux\Killer Security\Killer_Security\StarKill3r\Star Killer\Star Killer\bin\Debug\AntiPwny.exe
+O4 - Startup: AutorunsDisabled
+O11 - Options group: [ACCELERATED_GRAPHICS] Accelerated graphics
+O17 - HKLM\System\CCS\Services\Tcpip\..\{E139859C-44E1-11E7-831D-BC8556A59254}: NameServer = 208.67.222.222,208.67.220.220
+O18 - Protocol: tbauth - {14654CA6-5711-491D-B89A-58E571679951} - C:\Windows\SysWOW64\tbauth.dll
+O18 - Protocol: windows.tbauth - {14654CA6-5711-491D-B89A-58E571679951} - C:\Windows\SysWOW64\tbauth.dll
+O23 - Service: @%SystemRoot%\system32\Alg.exe,-112 (ALG) - Unknown owner - C:\WINDOWS\System32\alg.exe (file missing)
+O23 - Service: Xamarin Bonjour Service (Bonjour Service) - Apple Inc. - C:\Program Files (x86)\Xamarin\Bonjour\mDNSResponder.exe
+O23 - Service: Intel(R) Content Protection HECI Service (cphs) - Intel Corporation - C:\WINDOWS\SysWow64\IntelCpHeciSvc.exe
+O23 - Service: Developer Tools Service (DeveloperToolsService) - Unknown owner - C:\WINDOWS\System32\DeveloperToolsSvc.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\DiagSvcs\DiagnosticsHub.StandardCollector.ServiceRes.dll,-1000 (diagnosticshub.standardcollector.service) - Unknown owner - C:\WINDOWS\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\efssvc.dll,-100 (EFS) - Unknown owner - C:\WINDOWS\System32\lsass.exe (file missing)
+O23 - Service: @%systemroot%\system32\fxsresm.dll,-118 (Fax) - Unknown owner - C:\WINDOWS\system32\fxssvc.exe (file missing)
+O23 - Service: @oem17.inf,%hpservice_desc%;HP Service (hpsrv) - Unknown owner - C:\WINDOWS\system32\Hpservice.exe (file missing)
+O23 - Service: Intel(R) HD Graphics Control Panel Service (igfxCUIService1.0.0.0) - Unknown owner - C:\WINDOWS\system32\igfxCUIService.exe (file missing)
+O23 - Service: @keyiso.dll,-100 (KeyIso) - Unknown owner - C:\WINDOWS\system32\lsass.exe (file missing)
+O23 - Service: @comres.dll,-2797 (MSDTC) - Unknown owner - C:\WINDOWS\System32\msdtc.exe (file missing)
+O23 - Service: @%SystemRoot%\System32\netlogon.dll,-102 (Netlogon) - Unknown owner - C:\WINDOWS\system32\lsass.exe (file missing)
+O23 - Service: OSSEC HIDS (OssecSvc) - Unknown owner - C:\Program Files (x86)\ossec-agent\ossec-agent.exe
+O23 - Service: @%systemroot%\system32\Locator.exe,-2 (RpcLocator) - Unknown owner - C:\WINDOWS\system32\locator.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\samsrv.dll,-1 (SamSs) - Unknown owner - C:\WINDOWS\system32\lsass.exe (file missing)
+O23 - Service: @%systemroot%\system32\SecurityHealthAgent.dll,-1002 (SecurityHealthService) - Unknown owner - C:\WINDOWS\system32\SecurityHealthService.exe (file missing)
+O23 - Service: @%ProgramFiles%\Windows Defender Advanced Threat Protection\MsSense.exe,-1001 (Sense) - Unknown owner - C:\Program Files (x86)\Windows Defender Advanced Threat Protection\MsSense.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\SensorDataService.exe,-101 (SensorDataService) - Unknown owner - C:\WINDOWS\System32\SensorDataService.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\snmptrap.exe,-3 (SNMPTRAP) - Unknown owner - C:\WINDOWS\System32\snmptrap.exe (file missing)
+O23 - Service: @%systemroot%\system32\spectrum.exe,-101 (spectrum) - Unknown owner - C:\WINDOWS\system32\spectrum.exe (file missing)
+O23 - Service: @%systemroot%\system32\spoolsv.exe,-1 (Spooler) - Unknown owner - C:\WINDOWS\System32\spoolsv.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\sppsvc.exe,-101 (sppsvc) - Unknown owner - C:\WINDOWS\system32\sppsvc.exe (file missing)
+O23 - Service: SynTPEnh Caller Service (SynTPEnhService) - Synaptics Incorporated - C:\Program Files\Synaptics\SynTP\SynTPEnhService.exe
+O23 - Service: System Explorer Service (SystemExplorerHelpService) - Mister Group - C:\Program Files (x86)\System Explorer\service\SystemExplorerService64.exe
+O23 - Service: @%SystemRoot%\system32\TieringEngineService.exe,-702 (TieringEngineService) - Unknown owner - C:\WINDOWS\system32\TieringEngineService.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\ui0detect.exe,-101 (UI0Detect) - Unknown owner - C:\WINDOWS\system32\UI0Detect.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\vaultsvc.dll,-1003 (VaultSvc) - Unknown owner - C:\WINDOWS\system32\lsass.exe (file missing)
+O23 - Service: @%SystemRoot%\system32\vds.exe,-100 (vds) - Unknown owner - C:\WINDOWS\System32\vds.exe (file missing)
+O23 - Service: @%systemroot%\system32\vssvc.exe,-102 (VSS) - Unknown owner - C:\WINDOWS\system32\vssvc.exe (file missing)
+O23 - Service: @%systemroot%\system32\wbengine.exe,-104 (wbengine) - Unknown owner - C:\WINDOWS\system32\wbengine.exe (file missing)
+O23 - Service: @%ProgramFiles%\Windows Defender\MpAsDesc.dll,-320 (WdNisSvc) - Unknown owner - C:\Program Files (x86)\Windows Defender\NisSrv.exe (file missing)
+O23 - Service: @%ProgramFiles%\Windows Defender\MpAsDesc.dll,-310 (WinDefend) - Unknown owner - C:\Program Files (x86)\Windows Defender\MsMpEng.exe (file missing)
+O23 - Service: WMI Performance Adapter (WmiApSrv) - Unknown owner - C:\WINDOWS\system32\wbem\WmiApSrv.exe (file missing)
+O23 - Service: @%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,-101 (WMPNetworkSvc) - Unknown owner - C:\Program Files (x86)\Windows Media Player\wmpnetwk.exe (file missing)
+
+--
+End of file - 7231 bytes
