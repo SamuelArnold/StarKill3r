@@ -1,0 +1,240 @@
+{
+    "rules": {
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Adzok.yar",
+            "hash": "2a4a460428a21351063b169b20b3e4fa"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\AlienSpy.yar",
+            "hash": "8e4c439b82dacd07961c18aa1d1b8703"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\allrules.yar",
+            "hash": "d5d65ad5667633598aaa8c0551332d90"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Ap0calypse.yar",
+            "hash": "cfc70d87d1ea666035e2bc3a557d607b"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Arcom.yar",
+            "hash": "e6a48f1e829e0054bb85a232bfd5ab35"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Bandook.yar",
+            "hash": "66435ad419f108e271dca788e5b181ea"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\BlackNix.yar",
+            "hash": "dbef8e1c66d72bc0ef3fa80f85b90ff9"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\BlackShades.yar",
+            "hash": "f3e0108f4f952597fc1389b4558e09c9"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\BlueBanana.yar",
+            "hash": "6b4f6d2f1d337b55a5944b692eb059f2"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Bozok.yar",
+            "hash": "161a9a2391ae9a161509583b67efd340"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\ClientMesh.yar",
+            "hash": "3b434dd8f5c55e5dfdb1fc615c4601f4"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\CyberGate.yar",
+            "hash": "8f0d5fc276eb9e644a73c785dc1083bb"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\DarkComet.yar",
+            "hash": "7b1ac74fc2ca17d7aaeb2035e0bff102"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\DarkRAT.yar",
+            "hash": "f5600e6af4cc65ee06c88cab61147066"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Greame.yar",
+            "hash": "fd2826fec2ac9f5425d88c1bf195aa56"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\HawkEye.yar",
+            "hash": "6053bb94807999572b726d93fb1ded70"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Imminent3.yar",
+            "hash": "2bd7c62d716fc724a2ac6b62782d127f"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Infinity.yar",
+            "hash": "8e190b67fa2f284fc69fedd7f73ae2e3"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\JavaDropper.yar",
+            "hash": "204d21abe5b54a08b6ba00f9cfccc081"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\jRat.yar",
+            "hash": "aa57affa49cf4c1e517b8fb04f47cd78"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\LostDoor.yar",
+            "hash": "bde0d5787d9fd97ee41d241e44d12444"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\LuminosityLink.yar",
+            "hash": "220186d015166ce0c616cb44cc658ec3"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\LuxNet.yar",
+            "hash": "4f878e1dbc5e0ca02897491b3aca4240"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\NanoCore.yar",
+            "hash": "08cf8fcfdcdf5d20babf4a40d5eb6170"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\NetWire.yar",
+            "hash": "f472fad481d765d24758c2954ad59cb5"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\njRat.yar",
+            "hash": "86fd66524ffd478f4db05bd81f18e760"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Pandora.yar",
+            "hash": "c2eea2c393f929b62a06e306ab56a692"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Paradox.yar",
+            "hash": "ec66b825989635380eb3d5d3889e7318"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Plasma.yar",
+            "hash": "543282a830b4fa13285c83ef5d0833cc"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\PoisonIvy.yar",
+            "hash": "6c6f87b7c93f5250b27ce7e18a3b93b2"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\PredatorPain.yar",
+            "hash": "26fa4918b4c85a4fbd748748c6d39dda"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Punisher.yar",
+            "hash": "8478e69122db9a8db5b51691c30d7c7f"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\PythoRAT.yar",
+            "hash": "a7f267321bc537b4856b8cdf846ba697"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\QRat.yar",
+            "hash": "2bf10e27b0a9ddd05705cc394373ad6b"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Sakula.yar",
+            "hash": "04bdec4ad011ccbdc5d07d33ffc8820a"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\ShadowTech.yar",
+            "hash": "5c0801a51105a07c433f68adff836e99"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\SmallNet.yar",
+            "hash": "f7d5b09f0e2593581730ded7bf6981aa"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\SpyGate.yar",
+            "hash": "9c60f6a7cb8cfa86cf3c71becc51493c"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Sub7Nation.yar",
+            "hash": "97486a5d414476c03655def4a61b370b"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\unrecom.yar",
+            "hash": "46671c908ee3bac3de02502ca14c1c3f"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\UPX.yar",
+            "hash": "c530d902c9ef4e44f27e7f65b4d497e6"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Vertex.yar",
+            "hash": "28f49d52c1214ff5925093f069179db7"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\VirusRat.yar",
+            "hash": "3eef4e7723aab7d459065affee0d5556"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\xRAT.yar",
+            "hash": "d63b3d6f0b25a66e325b026393e34708"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\Xtreme.yar",
+            "hash": "3f576616c7bd1b5c20d36244b4d3ead5"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\AAR.yar",
+            "hash": "f882e1899e018fa2573a9e08ccbef3ca"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\KevTheHermitRulesSet\\adWind.yar",
+            "hash": "a0f7977840dfb22e9f563e5f0cd1ddfc"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\malware_index.yar"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\Mobile_Malware_index.yar"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\Packers_index.yar",
+            "hash": "68839ee4b6102bb84055c29ccf27e227"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\Webshells_index.yar",
+            "hash": "f93a5f02f25bb5a116ee1dd3cd2faade"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\Antidebug_AntiVM_index.yar",
+            "hash": "f8085cbf874189cab5b4dc382f42f570"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\Crypto_index.yar",
+            "hash": "d839f9329cd014f44f64df4f835a455c"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\CVE_Rules_index.yar",
+            "hash": "0c207a432d9efc94e8a5aacbf5bc180a"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\email_index.yar",
+            "hash": "c35c5209e17fa262495f3d679b2b3a83"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\Exploit-Kits_index.yar",
+            "hash": "7c6cf9a62f6655c14849cdbba2e99f48"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\index.yar"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\index_w_mobile.yar"
+        },
+        "rule": {
+            "file": "C:\\Users\\Admin\\Desktop\\Linux\\Killer Security\\Killer_Security\\StarKill3r\\Star Killer\\Star Killer\\bin\\Debug\\Pluggys\\Yara\\Rules\\rules-master\\Malicious_Documents_index.yar",
+            "hash": "314238ce242f98a1797fcdb474f0f53d"
+        }
+    },
+    "geometry": {
+        "main_window": "AdnQywACAAAAAACYAAABuAAAAwEAAAMjAAAAoAAAAdcAAAL5AAADGwAAAAAAAAAABkA=",
+        "rule_window": "AdnQywACAAAAAAMZAAAAAAAABkYAAANiAAADIQAAAB8AAAY+AAADWgAAAAAAAAAABkA="
+    }
+}

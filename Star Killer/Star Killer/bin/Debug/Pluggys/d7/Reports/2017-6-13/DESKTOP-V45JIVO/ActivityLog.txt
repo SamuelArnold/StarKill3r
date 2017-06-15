@@ -1,0 +1,3 @@
+
+10:32 PM -- Started --
+10:33 PM - Examined Windows crash dumps for errors.

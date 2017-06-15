@@ -69,9 +69,12 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button51 = new System.Windows.Forms.Button();
+            this.button48 = new System.Windows.Forms.Button();
             this.button45 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button49 = new System.Windows.Forms.Button();
             this.button30 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
@@ -104,10 +107,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.button50 = new System.Windows.Forms.Button();
             this.button39 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button48 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -327,7 +330,7 @@
             this.button15.BackColor = System.Drawing.Color.SeaGreen;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button15.Location = new System.Drawing.Point(78, 59);
+            this.button15.Location = new System.Drawing.Point(78, 115);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 50);
             this.button15.TabIndex = 19;
@@ -353,11 +356,11 @@
             this.button17.BackColor = System.Drawing.Color.SeaGreen;
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button17.Location = new System.Drawing.Point(80, 3);
+            this.button17.Location = new System.Drawing.Point(81, 3);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 50);
             this.button17.TabIndex = 21;
-            this.button17.Text = "TCPView";
+            this.button17.Text = "TCP VIew";
             this.button17.UseVisualStyleBackColor = false;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
@@ -366,7 +369,7 @@
             this.button18.BackColor = System.Drawing.Color.SeaGreen;
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button18.Location = new System.Drawing.Point(-1, 2);
+            this.button18.Location = new System.Drawing.Point(81, 59);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 50);
             this.button18.TabIndex = 22;
@@ -578,6 +581,7 @@
             // 
             // panel1
             // 
+            this.panel1.AllowDrop = true;
             this.panel1.AutoScroll = true;
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
@@ -588,6 +592,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1067, 809);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
             // label7
             // 
@@ -600,6 +605,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.AllowDrop = true;
             this.groupBox4.Controls.Add(this.panel3);
             this.groupBox4.Location = new System.Drawing.Point(25, 522);
             this.groupBox4.Name = "groupBox4";
@@ -609,7 +615,9 @@
             // 
             // panel3
             // 
+            this.panel3.AllowDrop = true;
             this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.button51);
             this.panel3.Controls.Add(this.button48);
             this.panel3.Controls.Add(this.button45);
             this.panel3.Controls.Add(this.button16);
@@ -623,12 +631,39 @@
             this.panel3.Size = new System.Drawing.Size(196, 115);
             this.panel3.TabIndex = 0;
             // 
+            // button51
+            // 
+            this.button51.AllowDrop = true;
+            this.button51.BackColor = System.Drawing.Color.SeaGreen;
+            this.button51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button51.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button51.Location = new System.Drawing.Point(-2, 3);
+            this.button51.Name = "button51";
+            this.button51.Size = new System.Drawing.Size(75, 50);
+            this.button51.TabIndex = 25;
+            this.button51.Text = "Yara GUI";
+            this.button51.UseVisualStyleBackColor = false;
+            this.button51.Click += new System.EventHandler(this.button51_Click);
+            // 
+            // button48
+            // 
+            this.button48.BackColor = System.Drawing.Color.Goldenrod;
+            this.button48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button48.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button48.Location = new System.Drawing.Point(0, 115);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(75, 50);
+            this.button48.TabIndex = 24;
+            this.button48.Text = "System Explorer";
+            this.button48.UseVisualStyleBackColor = false;
+            this.button48.Click += new System.EventHandler(this.button48_Click);
+            // 
             // button45
             // 
             this.button45.BackColor = System.Drawing.Color.SeaGreen;
             this.button45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button45.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button45.Location = new System.Drawing.Point(78, 115);
+            this.button45.Location = new System.Drawing.Point(78, 172);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(75, 50);
             this.button45.TabIndex = 23;
@@ -638,6 +673,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.AllowDrop = true;
             this.groupBox1.Controls.Add(this.panel4);
             this.groupBox1.Location = new System.Drawing.Point(24, 353);
             this.groupBox1.Name = "groupBox1";
@@ -649,6 +685,7 @@
             // 
             this.panel4.AutoScroll = true;
             this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Controls.Add(this.button49);
             this.panel4.Controls.Add(this.button30);
             this.panel4.Controls.Add(this.button29);
             this.panel4.Controls.Add(this.button28);
@@ -662,6 +699,19 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(196, 111);
             this.panel4.TabIndex = 0;
+            // 
+            // button49
+            // 
+            this.button49.BackColor = System.Drawing.Color.SeaGreen;
+            this.button49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button49.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button49.Location = new System.Drawing.Point(83, 223);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(75, 50);
+            this.button49.TabIndex = 39;
+            this.button49.Text = "Ping Google";
+            this.button49.UseVisualStyleBackColor = false;
+            this.button49.Click += new System.EventHandler(this.button49_Click);
             // 
             // button30
             // 
@@ -1066,6 +1116,7 @@
             // panel7
             // 
             this.panel7.AutoScroll = true;
+            this.panel7.Controls.Add(this.button50);
             this.panel7.Controls.Add(this.button39);
             this.panel7.Controls.Add(this.button35);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1073,6 +1124,19 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(205, 109);
             this.panel7.TabIndex = 0;
+            // 
+            // button50
+            // 
+            this.button50.BackColor = System.Drawing.Color.SeaGreen;
+            this.button50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button50.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button50.Location = new System.Drawing.Point(3, 56);
+            this.button50.Name = "button50";
+            this.button50.Size = new System.Drawing.Size(75, 50);
+            this.button50.TabIndex = 42;
+            this.button50.Text = "OpenDNS";
+            this.button50.UseVisualStyleBackColor = false;
+            this.button50.Click += new System.EventHandler(this.button50_Click);
             // 
             // button39
             // 
@@ -1112,19 +1176,6 @@
             this.label2.TabIndex = 42;
             this.label2.Text = "Setup";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.Goldenrod;
-            this.button48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button48.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button48.Location = new System.Drawing.Point(0, 115);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(75, 50);
-            this.button48.TabIndex = 24;
-            this.button48.Text = "System Explorer";
-            this.button48.UseVisualStyleBackColor = false;
-            this.button48.Click += new System.EventHandler(this.button48_Click);
             // 
             // Form1
             // 
@@ -1250,6 +1301,9 @@
         private System.Windows.Forms.Button button46;
         private System.Windows.Forms.Button button47;
         private System.Windows.Forms.Button button48;
+        private System.Windows.Forms.Button button49;
+        private System.Windows.Forms.Button button50;
+        private System.Windows.Forms.Button button51;
     }
 }
 

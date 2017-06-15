@@ -1,0 +1,7 @@
+(6/6/2017 11:18 PM) nmap-7.40-setup memory contains meterpreter signature. [Meterpreter Found],
+(6/6/2017 11:18 PM) nmap-7.40-setup memory contains meterpreter signature. [Meterpreter Found],
+(6/6/2017 11:22 PM) nmap memory contains meterpreter signature. [Meterpreter Found],
+(6/6/2017 11:22 PM) nmap memory contains meterpreter signature. [Meterpreter Found],
+(6/6/2017 11:24 PM) nmap memory contains meterpreter signature. [Meterpreter Found],
+(6/6/2017 11:24 PM) nmap memory contains meterpreter signature. [Meterpreter Found],
+(6/9/2017 9:38 PM) AntiPwny Killed [Meterpreter],

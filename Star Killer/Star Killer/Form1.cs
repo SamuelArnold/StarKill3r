@@ -95,7 +95,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -130,6 +130,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -147,8 +148,9 @@ namespace Star_Killer
             //P1.CreateNoWindow = true;
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -170,8 +172,18 @@ namespace Star_Killer
              //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(11000);
+            Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
+            try
+            {
+
+                myProcess.WaitForExit();
+            }
+            catch (InvalidOperationException)
+            {
+                // purposely do nothing here - the process exited before we told it to.
+            }
         }
 
         private void button17_Click(object sender, EventArgs e)
@@ -186,6 +198,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -200,6 +213,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -214,6 +228,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button23_Click(object sender, EventArgs e)
@@ -227,6 +242,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button26_Click(object sender, EventArgs e)
@@ -240,6 +256,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -258,6 +275,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
@@ -286,6 +304,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button28_Click(object sender, EventArgs e)
@@ -300,6 +319,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button29_Click(object sender, EventArgs e)
@@ -313,6 +333,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button30_Click(object sender, EventArgs e)
@@ -326,6 +347,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -350,6 +372,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button32_Click(object sender, EventArgs e)
@@ -364,6 +387,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(10);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
 
         }
 
@@ -389,6 +413,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button34_Click(object sender, EventArgs e)
@@ -403,6 +428,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button35_Click(object sender, EventArgs e)
@@ -417,6 +443,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -445,6 +472,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(10);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button37_Click(object sender, EventArgs e)
@@ -459,6 +487,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(10);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button38_Click(object sender, EventArgs e)
@@ -487,6 +516,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button40_Click(object sender, EventArgs e)
@@ -501,6 +531,7 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            myProcess.WaitForExit();
         }
 
         private void button41_Click(object sender, EventArgs e)
@@ -541,7 +572,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(11500);
+            Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -556,7 +587,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(11500);
+            Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -570,7 +601,7 @@ namespace Star_Killer
             //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
-            Thread.Sleep(11500);
+            Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
@@ -606,7 +637,7 @@ namespace Star_Killer
         {
             //ADS Detetor
             ProcessStartInfo P1 = new ProcessStartInfo();
-            P1.WorkingDirectory = @".\Pluggys\ADS Mangager";
+            P1.WorkingDirectory = @".\Pluggys\ADSMangager";
             P1.FileName = @"ADSManager.exe";
             //P4.Arguments = "";
             //P1.CreateNoWindow = true;
@@ -628,6 +659,63 @@ namespace Star_Killer
             Process myProcess = Process.Start(P1);
             Thread.Sleep(500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            // User Settings Windows
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "ping 8.8.8.8;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+            // Check Services
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File Get-MemoryDump.ps1;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+            // YARA 
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @".\Pluggys\Yara\YaraGui";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./yaragui.exe; ii ./../Rules;";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow =false;
+     
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            this.AllowDrop = true;
+            panel1.AllowDrop = true;
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            // this.DragEnter += Form1_DragEnter;
+            //this.DragDrop += Form1_DragDrop;
+        
+
+
+
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
