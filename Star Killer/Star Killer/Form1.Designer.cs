@@ -64,11 +64,13 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button50 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button57 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
             this.button48 = new System.Windows.Forms.Button();
             this.button45 = new System.Windows.Forms.Button();
@@ -85,6 +87,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.button58 = new System.Windows.Forms.Button();
+            this.button56 = new System.Windows.Forms.Button();
+            this.button55 = new System.Windows.Forms.Button();
+            this.button54 = new System.Windows.Forms.Button();
+            this.button52 = new System.Windows.Forms.Button();
             this.button46 = new System.Windows.Forms.Button();
             this.button43 = new System.Windows.Forms.Button();
             this.button44 = new System.Windows.Forms.Button();
@@ -95,9 +102,10 @@
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.button53 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
             this.button47 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
@@ -107,10 +115,12 @@
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button50 = new System.Windows.Forms.Button();
             this.button39 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button59 = new System.Windows.Forms.Button();
+            this.button60 = new System.Windows.Forms.Button();
+            this.button61 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -551,6 +561,8 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
+            this.panel2.Controls.Add(this.button61);
+            this.panel2.Controls.Add(this.button50);
             this.panel2.Controls.Add(this.button25);
             this.panel2.Controls.Add(this.button21);
             this.panel2.Controls.Add(this.button13);
@@ -567,6 +579,19 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(199, 115);
             this.panel2.TabIndex = 0;
+            // 
+            // button50
+            // 
+            this.button50.BackColor = System.Drawing.Color.SeaGreen;
+            this.button50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button50.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button50.Location = new System.Drawing.Point(5, 171);
+            this.button50.Name = "button50";
+            this.button50.Size = new System.Drawing.Size(75, 50);
+            this.button50.TabIndex = 30;
+            this.button50.Text = "YARA CMD";
+            this.button50.UseVisualStyleBackColor = false;
+            this.button50.Click += new System.EventHandler(this.button50_Click);
             // 
             // groupBox3
             // 
@@ -617,6 +642,7 @@
             // 
             this.panel3.AllowDrop = true;
             this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.button57);
             this.panel3.Controls.Add(this.button51);
             this.panel3.Controls.Add(this.button48);
             this.panel3.Controls.Add(this.button45);
@@ -630,6 +656,19 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(196, 115);
             this.panel3.TabIndex = 0;
+            // 
+            // button57
+            // 
+            this.button57.BackColor = System.Drawing.Color.SeaGreen;
+            this.button57.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F);
+            this.button57.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button57.Location = new System.Drawing.Point(78, 223);
+            this.button57.Name = "button57";
+            this.button57.Size = new System.Drawing.Size(75, 50);
+            this.button57.TabIndex = 26;
+            this.button57.Text = "Resouce Monitor";
+            this.button57.UseVisualStyleBackColor = false;
+            this.button57.Click += new System.EventHandler(this.button57_Click);
             // 
             // button51
             // 
@@ -835,10 +874,18 @@
             this.groupBox9.Size = new System.Drawing.Size(214, 134);
             this.groupBox9.TabIndex = 39;
             this.groupBox9.TabStop = false;
+            this.groupBox9.Enter += new System.EventHandler(this.groupBox9_Enter);
             // 
             // panel10
             // 
             this.panel10.AutoScroll = true;
+            this.panel10.Controls.Add(this.button60);
+            this.panel10.Controls.Add(this.button59);
+            this.panel10.Controls.Add(this.button58);
+            this.panel10.Controls.Add(this.button56);
+            this.panel10.Controls.Add(this.button55);
+            this.panel10.Controls.Add(this.button54);
+            this.panel10.Controls.Add(this.button52);
             this.panel10.Controls.Add(this.button46);
             this.panel10.Controls.Add(this.button43);
             this.panel10.Controls.Add(this.button44);
@@ -852,6 +899,71 @@
             this.panel10.Size = new System.Drawing.Size(208, 115);
             this.panel10.TabIndex = 0;
             this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
+            // 
+            // button58
+            // 
+            this.button58.BackColor = System.Drawing.Color.SeaGreen;
+            this.button58.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button58.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button58.Location = new System.Drawing.Point(84, 284);
+            this.button58.Name = "button58";
+            this.button58.Size = new System.Drawing.Size(75, 50);
+            this.button58.TabIndex = 50;
+            this.button58.Text = "Yara2 scan exlpoits2 process";
+            this.button58.UseVisualStyleBackColor = false;
+            this.button58.Click += new System.EventHandler(this.button58_Click);
+            // 
+            // button56
+            // 
+            this.button56.BackColor = System.Drawing.Color.SeaGreen;
+            this.button56.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button56.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button56.Location = new System.Drawing.Point(3, 340);
+            this.button56.Name = "button56";
+            this.button56.Size = new System.Drawing.Size(75, 50);
+            this.button56.TabIndex = 49;
+            this.button56.Text = "Yara3 Scan Keylogger Process";
+            this.button56.UseVisualStyleBackColor = false;
+            this.button56.Click += new System.EventHandler(this.button56_Click);
+            // 
+            // button55
+            // 
+            this.button55.BackColor = System.Drawing.Color.OrangeRed;
+            this.button55.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button55.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button55.Location = new System.Drawing.Point(3, 228);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(75, 50);
+            this.button55.TabIndex = 48;
+            this.button55.Text = "Turn on Data Exection Protection";
+            this.button55.UseVisualStyleBackColor = false;
+            this.button55.Click += new System.EventHandler(this.button55_Click);
+            // 
+            // button54
+            // 
+            this.button54.BackColor = System.Drawing.Color.SeaGreen;
+            this.button54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button54.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button54.Location = new System.Drawing.Point(84, 228);
+            this.button54.Name = "button54";
+            this.button54.Size = new System.Drawing.Size(75, 50);
+            this.button54.TabIndex = 47;
+            this.button54.Text = "Driver Query";
+            this.button54.UseVisualStyleBackColor = false;
+            this.button54.Click += new System.EventHandler(this.button54_Click);
+            // 
+            // button52
+            // 
+            this.button52.BackColor = System.Drawing.Color.OrangeRed;
+            this.button52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button52.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button52.Location = new System.Drawing.Point(3, 173);
+            this.button52.Name = "button52";
+            this.button52.Size = new System.Drawing.Size(75, 50);
+            this.button52.TabIndex = 46;
+            this.button52.Text = "Launch UAC Settings";
+            this.button52.UseVisualStyleBackColor = false;
+            this.button52.Click += new System.EventHandler(this.button52_Click);
             // 
             // button46
             // 
@@ -967,9 +1079,10 @@
             // panel9
             // 
             this.panel9.AutoScroll = true;
+            this.panel9.Controls.Add(this.button53);
+            this.panel9.Controls.Add(this.button37);
             this.panel9.Controls.Add(this.button47);
             this.panel9.Controls.Add(this.button38);
-            this.panel9.Controls.Add(this.button37);
             this.panel9.Controls.Add(this.button36);
             this.panel9.Controls.Add(this.button32);
             this.panel9.Controls.Add(this.button14);
@@ -978,6 +1091,32 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(205, 109);
             this.panel9.TabIndex = 0;
+            // 
+            // button53
+            // 
+            this.button53.BackColor = System.Drawing.Color.SeaGreen;
+            this.button53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button53.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button53.Location = new System.Drawing.Point(88, 56);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(75, 50);
+            this.button53.TabIndex = 44;
+            this.button53.Text = "MB Anti Expoloit";
+            this.button53.UseVisualStyleBackColor = false;
+            this.button53.Click += new System.EventHandler(this.button53_Click);
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.SeaGreen;
+            this.button37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button37.Location = new System.Drawing.Point(88, 168);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(75, 50);
+            this.button37.TabIndex = 41;
+            this.button37.Text = "RumKin";
+            this.button37.UseVisualStyleBackColor = false;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // button47
             // 
@@ -1004,19 +1143,6 @@
             this.button38.Text = "DCode";
             this.button38.UseVisualStyleBackColor = false;
             this.button38.Click += new System.EventHandler(this.button38_Click);
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.SeaGreen;
-            this.button37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button37.Location = new System.Drawing.Point(88, 56);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(75, 50);
-            this.button37.TabIndex = 41;
-            this.button37.Text = "RumKin";
-            this.button37.UseVisualStyleBackColor = false;
-            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // button36
             // 
@@ -1116,7 +1242,6 @@
             // panel7
             // 
             this.panel7.AutoScroll = true;
-            this.panel7.Controls.Add(this.button50);
             this.panel7.Controls.Add(this.button39);
             this.panel7.Controls.Add(this.button35);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1124,19 +1249,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(205, 109);
             this.panel7.TabIndex = 0;
-            // 
-            // button50
-            // 
-            this.button50.BackColor = System.Drawing.Color.SeaGreen;
-            this.button50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button50.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button50.Location = new System.Drawing.Point(3, 56);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(75, 50);
-            this.button50.TabIndex = 42;
-            this.button50.Text = "OpenDNS";
-            this.button50.UseVisualStyleBackColor = false;
-            this.button50.Click += new System.EventHandler(this.button50_Click);
             // 
             // button39
             // 
@@ -1176,6 +1288,45 @@
             this.label2.TabIndex = 42;
             this.label2.Text = "Setup";
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // button59
+            // 
+            this.button59.BackColor = System.Drawing.Color.SeaGreen;
+            this.button59.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button59.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button59.Location = new System.Drawing.Point(3, 284);
+            this.button59.Name = "button59";
+            this.button59.Size = new System.Drawing.Size(75, 50);
+            this.button59.TabIndex = 51;
+            this.button59.Text = "Yara1 scan exlpoits1 process";
+            this.button59.UseVisualStyleBackColor = false;
+            this.button59.Click += new System.EventHandler(this.button59_Click);
+            // 
+            // button60
+            // 
+            this.button60.BackColor = System.Drawing.Color.OrangeRed;
+            this.button60.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button60.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button60.Location = new System.Drawing.Point(84, 340);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(75, 50);
+            this.button60.TabIndex = 52;
+            this.button60.Text = "DOD Secure Baseline";
+            this.button60.UseVisualStyleBackColor = false;
+            this.button60.Click += new System.EventHandler(this.button60_Click);
+            // 
+            // button61
+            // 
+            this.button61.BackColor = System.Drawing.Color.SeaGreen;
+            this.button61.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button61.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button61.Location = new System.Drawing.Point(84, 336);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(75, 50);
+            this.button61.TabIndex = 31;
+            this.button61.Text = "Process Injection Monitor";
+            this.button61.UseVisualStyleBackColor = false;
+            this.button61.Click += new System.EventHandler(this.button61_Click);
             // 
             // Form1
             // 
@@ -1302,8 +1453,18 @@
         private System.Windows.Forms.Button button47;
         private System.Windows.Forms.Button button48;
         private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button50;
         private System.Windows.Forms.Button button51;
+        private System.Windows.Forms.Button button50;
+        private System.Windows.Forms.Button button52;
+        private System.Windows.Forms.Button button53;
+        private System.Windows.Forms.Button button54;
+        private System.Windows.Forms.Button button55;
+        private System.Windows.Forms.Button button56;
+        private System.Windows.Forms.Button button57;
+        private System.Windows.Forms.Button button58;
+        private System.Windows.Forms.Button button59;
+        private System.Windows.Forms.Button button60;
+        private System.Windows.Forms.Button button61;
     }
 }
 

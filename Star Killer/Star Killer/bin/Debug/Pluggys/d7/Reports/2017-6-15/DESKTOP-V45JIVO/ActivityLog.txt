@@ -1,0 +1,12 @@
+
+10:58 PM -- Started --
+11:05 PM - Deleted unnecessary temporary files from all user accounts. - 341.7 MB Deleted!
+11:06 PM - Deleted temporary internet files from all user accounts. - 8.8 MB Deleted!
+11:08 PM - Manually examined file system and registry to find and remove malware.
+11:08 PM - Scanned for MBR infections / rootkits (MBAR)
+11:26 PM - Ran Virus/Malware scans (ESET)
+11:52 PM - Ran Malware Scans (HitmanPro)
+11:52 PM - Ran Malware Scans (HitmanPro)
+12:18 AM - Scanned for MBR infections / rootkits (TDSSKiller)
+12:20 AM - Checked MBR for infections.
+12:23 AM - Checked MBR for infections.

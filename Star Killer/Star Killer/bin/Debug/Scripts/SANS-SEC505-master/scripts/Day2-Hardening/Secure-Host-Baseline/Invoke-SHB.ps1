@@ -8,6 +8,15 @@
 # Last Updated: 29.Dec.2016
 
 
+# Sammss code to add baseline 
+
+#mkdir  C:\Temp
+#mkdir  C:\SANS\Day2-Hardening\Secure-Host-Baseline\
+#copy ".\Secure-Host-Baseline-master.zip" "C:\SANS\Day2-Hardening\Secure-Host-Baseline"
+Get-ExecutionPolicy
+Set-ExecutionPolicy remoteSigned
+
+
 # Delete temp folders if this script has been run previously:
 if (Test-Path -Path C:\Temp\Secure-Host-Baseline -PathType Container)
 { Remove-Item -Path C:\Temp\Secure-Host-Baseline -Recurse -Force } 
@@ -36,4 +45,8 @@ $ErrorActionPreference = $currentPref
 # Now, look in the GPMC and there will be new GPOs, but they are not
 # linked to anything by default.
 
-
+#Install-WindowsFeature –Name GPMC
+#Add-WindowsFeature –Name
+# GPMCServerManagerCmd -install gpmc
+#./gpmc.msc
+Set-ExecutionPolicy restricted
