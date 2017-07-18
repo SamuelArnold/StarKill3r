@@ -18,6 +18,9 @@ c:\python27\scripts\pip.exe install Crypto.Hash
 c:\python27\scripts\pip.exe install volatility
 c:\python27\scripts\pip.exe install pywin
 c:\python27\scripts\pip.exe install pypiwin32
+c:\python27\scripts\pip.exe install rekall/rekall-core 
+c:\python27\scripts\pip.exe install rekall/rekall-agent 
+c:\python27\scripts\pip.exe install rekall
 c:\python27\python.exe import volatility
 
 

@@ -1,0 +1,8 @@
+# Never upload hostlist
+hostlist*
+test
+Output*
+Schedule
+KansaTest.ps1
+private
+!.gitignore

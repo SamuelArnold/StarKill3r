@@ -853,5 +853,126 @@ namespace Star_Killer
             Thread.Sleep(500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+            // Set DOD Basele Secure Group Policy
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day6-Servers/IPv6";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./Disable_IPv6_KB929852.reg";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+            // Set IE private mode Group Policy
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day2-Hardening";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./IE-Private-Mode-Default.reg";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button64_Click(object sender, EventArgs e)
+        {
+            // Get Insecure Service
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day2-Hardening/Services";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File ./Get-InsecureServiceBinaryPath.ps1;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button65_Click(object sender, EventArgs e)
+        {
+            // Get Service privalages
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day2-Hardening/Services";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File ./Get-ServicePrivileges.ps1;$host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button66_Click(object sender, EventArgs e)
+        {
+            // Get Service privalages
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/SANS-SEC505-master/scripts/Day2-Hardening/Services";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File ./Audit-Service-Creation.ps1;$host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            // set CMD / Powershell Privalages
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Pluggys/CHML";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./SoftwarePolicy210Setup.exe; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            // set CMD / Powershell Privalages
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Pluggys/CHML";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./softwarepolicy.ini; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button68_Click(object sender, EventArgs e)
+        {
+            // Get Service privalages
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./Set_Up_Banner.ps1;$host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+            // Set IE private mode Group Policy
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts/";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "./Window_8_Stig.reg";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
     }
 }
