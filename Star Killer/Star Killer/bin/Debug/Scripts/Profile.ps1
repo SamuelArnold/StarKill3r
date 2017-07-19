@@ -5,17 +5,24 @@
 # 
 #################
 
-(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
-import-module PsGet -erroraction 'silentlycontinue' > $null
-install-module PsUrl -erroraction 'silentlycontinue' > $null
-install-module PSReadline -erroraction 'silentlycontinue' > $null
-$HistoryFilePath = Join-Path ([Environment]::GetFolderPath('UserProfile')) .ps_history
-Register-EngineEvent PowerShell.Exiting -Action { Get-History | Export-Clixml $HistoryFilePath } | out-null
-if (Test-path $HistoryFilePath) { Import-Clixml $HistoryFilePath | Add-History }
+
+# get the Get history change from online 
+#(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
+#import-module PsGet -erroraction 'silentlycontinue' > $null
+#install-module PsUrl -erroraction 'silentlycontinue' > $null
+##install-module PSReadline 
+#import-module PSReadline  
+#import-module PsUrl
+Start-Sleep -s 2
+clear 
 # if you don't already have this configured...
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-
+Set-PSReadlineKeyHandler -Key Ctrl+C -BriefDescription "Exit on Command" -ScriptBlock  {
+	Exit
+} 
+Write-Host "Loading...Please hold my beer"
+Start-Sleep -s 2
 clear 
 #Set Banner 
 Write-Host "                      .~#########%%.~. "
@@ -47,42 +54,64 @@ Write-Host " Created by Sam Arnold"
 Write-Host "" 
 Write-Host "**************************"
 
+#Log information
 function prompt { 'Sams watching you ' + $env:USERNAME + " " + (get-location) + '> '}
-
+$Mydate=Get-Date -Format g
+$parentpid = (gwmi Win32_Process -filter "processid = $($([System.Diagnostics.Process]::GetCurrentProcess() | select Id).Id)" | select ParentProcessId).ParentProcessId
 New-Item C:\PowershellLogs -type directory -erroraction 'silentlycontinue' > $null
 New-Item C:\PowershellLogs\log.txt -type file -erroraction 'silentlycontinue' > $null
 echo "powershell Banner created by Sam Arnold"        >> C:\PowershellLogs\log.txt
 $env:UserName                                         >> C:\PowershellLogs\log.txt
 Get-Date -Format g                                    >>C:\PowershellLogs\log.txt
 echo  "my Proccess ID:  "  + $pid                     >>C:\PowershellLogs\log.txt
+echo  "my Parent Proccess ID:  "  + $parentpid        >>C:\PowershellLogs\log.txt
 Get-NetTCPConnection                                  >>C:\PowershellLogs\log.txt
 
-
-
+Write-Host "Loading...Please hold my beer"
+Start-Sleep -s 5
    # password if in default location
    # Write-Host "Path exists on Server"
     #Create password
     $Answer="yes"
     $response= "null"
 
-    #check for password
-    While ($response -ne $Answer){
-           $response = Read-host "Whats your password?"
-          }
-    #check for password again if broke with Ctrl C
-    While ($response -ne $Answer){
-           $response = Read-host "Whats your password?"
-          }
-    #check for password again if broke with Ctrl C
-    While ($response -ne $Answer){
-           $response = Read-host "Whats your password?"
-          }
-    #check for password again if broke with Ctrl C
-    While ($response -ne $Answer){
-           $response = Read-host "Whats your password?"
-          }
-   
-   
-   
-   
+    try{
+            #check for password
+            While ($response -ne $Answer){
+						
+                   $response = Read-host -prompt "Whats your password?"
+                  }
+         }
+	catch {
+			exit;
+		}
+    finally {
+		  While ($response -ne $Answer){
+				#check for password
+				While ($response -ne $Answer){
+					   $response = Read-host  -prompt "Whats your password?"
+					  }
+				#check for password again if broke with Ctrl C
+				While ($response -ne $Answer){
+					   $response = Read-host  -prompt "Whats your password?"
+					  }
+				#check for password again if broke with Ctrl C
+				While ($response -ne $Answer){
+					   $response = Read-host  -prompt "Whats your password?"
+					  }
+				#check for password again if broke with Ctrl C
+				While ($response -ne $Answer){
+					   $response = Read-host  -prompt "Whats your password?"
+					  }
+				}
+        }
+   	
+   	 Write-Host "Please hold on sir, I have other people to attend"
+     Start-Sleep -s 5
+	 #What if they canceled the command? Oh ya exit? 
+	 While ($response -ne $Answer){
+		exit; 
+	 }
+	Start-Sleep -s 1
+	Write-Host "Burp...Already!"
    #see profile $profile

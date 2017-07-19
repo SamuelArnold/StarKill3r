@@ -786,7 +786,7 @@ namespace Star_Killer
 
         private void button57_Click(object sender, EventArgs e)
         {
-            // yara scan all processes
+            // yResouce monitor
             ProcessStartInfo _processStartInfo = new ProcessStartInfo();
             _processStartInfo.WorkingDirectory = @".\Pluggys\Yara";
             _processStartInfo.FileName = @"powershell.exe";
@@ -973,6 +973,36 @@ namespace Star_Killer
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1500);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button70_Click(object sender, EventArgs e)
+        {
+            // Event veiwer
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @".\Pluggys\Yara";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "eventvwr";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+
+            //EMET download
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://www.microsoft.com/en-us/download/details.aspx?id=54264";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+
         }
     }
 }
