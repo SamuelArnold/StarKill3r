@@ -6,7 +6,7 @@
 #################
 
 # change freaking language 
-$ExecutionContext.SessionState.LanguageMode=[System.Management.Automation.PSLanguageMode]::ConstrainedLanguage
+#$ExecutionContext.SessionState.LanguageMode=[System.Management.Automation.PSLanguageMode]::ConstrainedLanguage
 
 #get the Get history change from online 
 (new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
@@ -19,7 +19,7 @@ $env:tmp = "c:\temp"
 Start-Sleep -s 2
 clear 
 # if you don't already have this configured...
-[console]::TreatControlCAsInput = $true
+#[console]::TreatControlCAsInput = $true
 
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Chord Ctrl+C -BriefDescription "Exit on Command" -ScriptBlock  {

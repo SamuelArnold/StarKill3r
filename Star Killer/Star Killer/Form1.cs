@@ -1004,5 +1004,145 @@ namespace Star_Killer
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
 
         }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            //VaraCrypt
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\VaraCrypt";
+            P1.FileName = @"VeraCryptSetup1.21.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(1000);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+            //Secure Desktop
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"SecureDesktop-GUI.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button73_Click_1(object sender, EventArgs e)
+        {
+            //Secure Desktop
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"SecureDesktop-GUI.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+           // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+            //Secure Desktop
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"mmc.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+            //Secure Desktop
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"Regedit.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button76_Click(object sender, EventArgs e)
+        {
+            //lusrmgr.msc
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"lusrmgr.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button77_Click(object sender, EventArgs e)
+        {
+            // shared folders
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"fsmgmt.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button78_Click(object sender, EventArgs e)
+        {
+            // services
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"services.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button79_Click(object sender, EventArgs e)
+        {
+            //certmgr.msc
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"certmgr.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button80_Click(object sender, EventArgs e)
+        {
+            //computer management
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"compmgmt.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
     }
 }
