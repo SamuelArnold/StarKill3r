@@ -42,7 +42,7 @@ namespace Star_Killer
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
             Thread.Sleep(500);
-            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+           // SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -96,7 +96,7 @@ namespace Star_Killer
             _processStartInfo.CreateNoWindow = true;
             Process myProcess = Process.Start(_processStartInfo);
             Thread.Sleep(1000);
-            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+           // SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -129,7 +129,7 @@ namespace Star_Killer
             // P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
             Thread.Sleep(500);
-            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+            //SetParent(myProcess.MainWindowHandle, panel1.Handle);
             
         }
 
@@ -1137,6 +1137,133 @@ namespace Star_Killer
             ProcessStartInfo P1 = new ProcessStartInfo();
             P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
             P1.FileName = @"compmgmt.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button81_Click(object sender, EventArgs e)
+        {
+            //Direct X Diagnostic
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"dxdiag.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button82_Click(object sender, EventArgs e)
+        {
+            // File / Driver verifier sigverif
+            //Direct X Diagnostic
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"sigverif.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button83_Click(object sender, EventArgs e)
+        {
+            // Group Policy Edit.
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"gpedit.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button84_Click(object sender, EventArgs e)
+        {
+            // Local Security
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"gpedit.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button85_Click(object sender, EventArgs e)
+        {
+            //Advanced WIndows firewall
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"wf.msc";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button86_Click(object sender, EventArgs e)
+        {
+            //Windows Maleware Remover
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"mrt.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button87_Click(object sender, EventArgs e)
+        {
+            //Windows Maleware Remover
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"syskey.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button88_Click(object sender, EventArgs e)
+        {
+            //Data Exctuon Prevetion
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"SystemPropertiesDataExecutionPrevention";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button89_Click(object sender, EventArgs e)
+        {
+            //SystemPropertiesProtection
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
+            P1.FileName = @"SystemPropertiesProtection";
             //P4.Arguments = "";
             //P1.CreateNoWindow = true;
             P1.WindowStyle = ProcessWindowStyle.Normal;
