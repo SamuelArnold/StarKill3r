@@ -1,0 +1,7 @@
+
+10:12 PM -- Started --
+10:13 PM - Removed Windows Policy settings.
+10:14 PM - Applied fix for Missing Non-Plug and Play Devices in Device Manager.
+
+10:19 PM -- Started --
+11:38 PM -- Stopped --

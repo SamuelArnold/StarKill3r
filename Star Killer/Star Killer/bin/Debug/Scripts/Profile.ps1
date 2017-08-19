@@ -8,27 +8,30 @@
 # change freaking language 
 #$ExecutionContext.SessionState.LanguageMode=[System.Management.Automation.PSLanguageMode]::ConstrainedLanguage
 
+#Unlocks scripts....but at the cost of letting powershell scripts
+Set-ExecutionPolicy unrestricted
+
 #get the Get history change from online 
-(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
-import-module PsGet -erroraction 'silentlycontinue' > $null
-install-module PsUrl -erroraction 'silentlycontinue' > $null
-install-module PSReadline 
-import-module PSReadline  
-import-module PsUrl
-$env:tmp = "c:\temp"
-Start-Sleep -s 2
+(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex  > $null
+import-module PsGet > $null
+install-module PsUrl > $null
+install-module PSReadline   > $null
+import-module PSReadline   > $null
+import-module PsUrl > $null
+$env:tmp = "c:\temp" > $null
+Start-Sleep -s 1
 clear 
 # if you don't already have this configured...
-#[console]::TreatControlCAsInput = $true
+[console]::TreatControlCAsInput = $true > $null
 
-Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward > $null
 Set-PSReadlineKeyHandler -Chord Ctrl+C -BriefDescription "Exit on Command" -ScriptBlock  {
 	Exit
-} 
-Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+}   > $null
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward > $null
 Set-PSReadlineKeyHandler -Key Ctrl+C -BriefDescription "Exit on Command" -ScriptBlock  {
 	Exit
-} 
+}  > $null
 
 #Clear console
 clear 
@@ -93,7 +96,7 @@ Write-Host "**************************"
 
 #keep loading
 Write-Host "Loading...Please hold my beer"
-Start-Sleep -s 5
+Start-Sleep -s 1
    # password if in default location
    # Write-Host "Path exists on Server"
     #Create password
@@ -132,7 +135,7 @@ Start-Sleep -s 5
         }
    	
    	 Write-Host "Please hold on sir, I have other people to attend"
-     Start-Sleep -s 5
+     Start-Sleep -s 2
 	 #What if they canceled the command? Oh ya exit? 
 	 While ($response -ne $Answer){
 		exit; 

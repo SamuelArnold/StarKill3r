@@ -1264,12 +1264,70 @@ namespace Star_Killer
             ProcessStartInfo P1 = new ProcessStartInfo();
             P1.WorkingDirectory = @".\Pluggys\SecureDesktop";
             P1.FileName = @"SystemPropertiesProtection";
+            P1.FileName = @"SystemPropertiesProtection";
             //P4.Arguments = "";
             //P1.CreateNoWindow = true;
             P1.WindowStyle = ProcessWindowStyle.Normal;
             Process myProcess = Process.Start(P1);
             Thread.Sleep(500);
             // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button90_Click(object sender, EventArgs e)
+        {
+            // Set DOD Basele Secure Group Policy
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File EnableGodmode.ps1;$host.enternestedprompt()";
+            //_processStartInfo.Arguments = "-noexit; cd ./Pluggys ; $host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button91_Click(object sender, EventArgs e)
+        {
+
+            //ARP Defender
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "http://binaryplant.com";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button93_Click(object sender, EventArgs e)
+        {
+            //SYS INTERNALS
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button92_Click(object sender, EventArgs e)
+        {
+            //RW EVERYTHING
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://rweverything.com/download/";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
     }
 }

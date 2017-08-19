@@ -27,7 +27,7 @@ ForEach ($user in $users){
     #Create  for powershell
     New-Item WindowsPowerShell -type directory -erroraction 'silentlycontinue' > $null
     cd WindowsPowerShell -erroraction 'silentlycontinue' > $null
-    Copy-Item -Path "C:\TEMP\Microsoft.PowerShell_profile.ps1"  -Destination Microsoft.PowerShell_profile.ps1 -Force -erroraction 'silentlycontinue' > $null
+    #copy-Item -Path "C:\TEMP\Microsoft.PowerShell_profile.ps1"  -Destination Microsoft.PowerShell_profile.ps1 -Force -erroraction 'silentlycontinue' > $null
     Copy-Item -Path "C:\TEMP\Profile.ps1"  -Destination Profile.ps1 -Force -erroraction 'silentlycontinue' > $null
     }
   

@@ -9,26 +9,26 @@
 #$ExecutionContext.SessionState.LanguageMode=[System.Management.Automation.PSLanguageMode]::ConstrainedLanguage
 
 #get the Get history change from online 
-(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
-import-module PsGet -erroraction 'silentlycontinue' > $null
-install-module PsUrl -erroraction 'silentlycontinue' > $null
-install-module PSReadline 
-import-module PSReadline  
-import-module PsUrl
-$env:tmp = "c:\temp"
-Start-Sleep -s 2
+(new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex  > $null
+import-module PsGet > $null
+install-module PsUrl > $null
+install-module PSReadline   > $null
+import-module PSReadline   > $null
+import-module PsUrl > $null
+$env:tmp = "c:\temp" > $null
+Start-Sleep -s 1
 clear 
 # if you don't already have this configured...
-#[console]::TreatControlCAsInput = $true
+[console]::TreatControlCAsInput = $true  -erroraction 'silentlycontinue' > $null
 
-Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward  -erroraction 'silentlycontinue' > $null
 Set-PSReadlineKeyHandler -Chord Ctrl+C -BriefDescription "Exit on Command" -ScriptBlock  {
 	Exit
-} 
-Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+}   -erroraction 'silentlycontinue' > $null
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward  -erroraction 'silentlycontinue' > $null
 Set-PSReadlineKeyHandler -Key Ctrl+C -BriefDescription "Exit on Command" -ScriptBlock  {
 	Exit
-} 
+}  -erroraction 'silentlycontinue' > $null
 
 #Clear console
 clear 
@@ -93,7 +93,7 @@ Write-Host "**************************"
 
 #keep loading
 Write-Host "Loading...Please hold my beer"
-Start-Sleep -s 5
+Start-Sleep -s 1
    # password if in default location
    # Write-Host "Path exists on Server"
     #Create password
