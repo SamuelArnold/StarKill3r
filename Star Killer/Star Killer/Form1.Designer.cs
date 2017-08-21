@@ -116,6 +116,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.button93 = new System.Windows.Forms.Button();
+            this.button92 = new System.Windows.Forms.Button();
+            this.button91 = new System.Windows.Forms.Button();
             this.button71 = new System.Windows.Forms.Button();
             this.button53 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
@@ -150,9 +153,6 @@
             this.button39 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button91 = new System.Windows.Forms.Button();
-            this.button92 = new System.Windows.Forms.Button();
-            this.button93 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -1324,6 +1324,45 @@
             this.panel9.Size = new System.Drawing.Size(205, 109);
             this.panel9.TabIndex = 0;
             // 
+            // button93
+            // 
+            this.button93.BackColor = System.Drawing.Color.OrangeRed;
+            this.button93.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button93.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button93.Location = new System.Drawing.Point(82, 279);
+            this.button93.Name = "button93";
+            this.button93.Size = new System.Drawing.Size(75, 50);
+            this.button93.TabIndex = 48;
+            this.button93.Text = "Sys internals";
+            this.button93.UseVisualStyleBackColor = false;
+            this.button93.Click += new System.EventHandler(this.button93_Click);
+            // 
+            // button92
+            // 
+            this.button92.BackColor = System.Drawing.Color.OrangeRed;
+            this.button92.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button92.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button92.Location = new System.Drawing.Point(85, 221);
+            this.button92.Name = "button92";
+            this.button92.Size = new System.Drawing.Size(75, 50);
+            this.button92.TabIndex = 47;
+            this.button92.Text = "Rw everything";
+            this.button92.UseVisualStyleBackColor = false;
+            this.button92.Click += new System.EventHandler(this.button92_Click);
+            // 
+            // button91
+            // 
+            this.button91.BackColor = System.Drawing.Color.SeaGreen;
+            this.button91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button91.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button91.Location = new System.Drawing.Point(4, 219);
+            this.button91.Name = "button91";
+            this.button91.Size = new System.Drawing.Size(75, 50);
+            this.button91.TabIndex = 46;
+            this.button91.Text = "ARP Defender";
+            this.button91.UseVisualStyleBackColor = false;
+            this.button91.Click += new System.EventHandler(this.button91_Click);
+            // 
             // button71
             // 
             this.button71.BackColor = System.Drawing.Color.SeaGreen;
@@ -1771,45 +1810,6 @@
             this.label2.TabIndex = 42;
             this.label2.Text = "Setup";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // button91
-            // 
-            this.button91.BackColor = System.Drawing.Color.SeaGreen;
-            this.button91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button91.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button91.Location = new System.Drawing.Point(4, 219);
-            this.button91.Name = "button91";
-            this.button91.Size = new System.Drawing.Size(75, 50);
-            this.button91.TabIndex = 46;
-            this.button91.Text = "ARP Defender";
-            this.button91.UseVisualStyleBackColor = false;
-            this.button91.Click += new System.EventHandler(this.button91_Click);
-            // 
-            // button92
-            // 
-            this.button92.BackColor = System.Drawing.Color.OrangeRed;
-            this.button92.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button92.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button92.Location = new System.Drawing.Point(85, 221);
-            this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(75, 50);
-            this.button92.TabIndex = 47;
-            this.button92.Text = "Rw everything";
-            this.button92.UseVisualStyleBackColor = false;
-            this.button92.Click += new System.EventHandler(this.button92_Click);
-            // 
-            // button93
-            // 
-            this.button93.BackColor = System.Drawing.Color.OrangeRed;
-            this.button93.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button93.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button93.Location = new System.Drawing.Point(82, 279);
-            this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(75, 50);
-            this.button93.TabIndex = 48;
-            this.button93.Text = "Rw everything";
-            this.button93.UseVisualStyleBackColor = false;
-            this.button93.Click += new System.EventHandler(this.button93_Click);
             // 
             // Form1
             // 
