@@ -1329,5 +1329,61 @@ namespace Star_Killer
             Thread.Sleep(10);
             SetParent(myProcess.MainWindowHandle, panel1.Handle);
         }
+
+        private void button94_Click(object sender, EventArgs e)
+        {
+            // Get Service privalages
+            ProcessStartInfo _processStartInfo = new ProcessStartInfo();
+            _processStartInfo.WorkingDirectory = @"./Scripts";
+            _processStartInfo.FileName = @"powershell.exe";
+            _processStartInfo.Arguments = "powershell -noexit -executionpolicy bypass -File ./DisableWindowsApps.ps1;$host.enternestedprompt()";
+            _processStartInfo.CreateNoWindow = true;
+            Process myProcess = Process.Start(_processStartInfo);
+            Thread.Sleep(1500);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button95_Click(object sender, EventArgs e)
+        {
+            // File / Driver verifier sigverif
+            //Direct X Diagnostic
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\hijackthis";
+            P1.FileName = @"HijackThis.exe";
+            //P4.Arguments = "";
+            //P1.CreateNoWindow = true;
+            P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(500);
+            // SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button96_Click(object sender, EventArgs e)
+        {
+            //OS Forensics
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://www.osforensics.com/index.html";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
+
+        private void button97_Click(object sender, EventArgs e)
+        {
+            //Voltality Workbench
+            ProcessStartInfo P1 = new ProcessStartInfo();
+            P1.WorkingDirectory = @".\Pluggys\";
+            P1.FileName = @"iexplore.exe";
+            P1.Arguments = "https://www.osforensics.com/tools/";
+            //P1.CreateNoWindow = true;
+            // P1.WindowStyle = ProcessWindowStyle.Normal;
+            Process myProcess = Process.Start(P1);
+            Thread.Sleep(10);
+            SetParent(myProcess.MainWindowHandle, panel1.Handle);
+        }
     }
 }

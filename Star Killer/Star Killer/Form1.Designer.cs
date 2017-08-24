@@ -153,6 +153,10 @@
             this.button39 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button94 = new System.Windows.Forms.Button();
+            this.button95 = new System.Windows.Forms.Button();
+            this.button96 = new System.Windows.Forms.Button();
+            this.button97 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -687,6 +691,7 @@
             // 
             this.panel3.AllowDrop = true;
             this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.button95);
             this.panel3.Controls.Add(this.button70);
             this.panel3.Controls.Add(this.button57);
             this.panel3.Controls.Add(this.button51);
@@ -968,6 +973,7 @@
             // panel10
             // 
             this.panel10.AutoScroll = true;
+            this.panel10.Controls.Add(this.button94);
             this.panel10.Controls.Add(this.button69);
             this.panel10.Controls.Add(this.button68);
             this.panel10.Controls.Add(this.button67);
@@ -1094,7 +1100,7 @@
             this.button62.BackColor = System.Drawing.Color.OrangeRed;
             this.button62.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button62.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button62.Location = new System.Drawing.Point(96, 644);
+            this.button62.Location = new System.Drawing.Point(84, 618);
             this.button62.Name = "button62";
             this.button62.Size = new System.Drawing.Size(75, 50);
             this.button62.TabIndex = 53;
@@ -1307,6 +1313,8 @@
             // panel9
             // 
             this.panel9.AutoScroll = true;
+            this.panel9.Controls.Add(this.button97);
+            this.panel9.Controls.Add(this.button96);
             this.panel9.Controls.Add(this.button93);
             this.panel9.Controls.Add(this.button92);
             this.panel9.Controls.Add(this.button91);
@@ -1329,7 +1337,7 @@
             this.button93.BackColor = System.Drawing.Color.OrangeRed;
             this.button93.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button93.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button93.Location = new System.Drawing.Point(82, 279);
+            this.button93.Location = new System.Drawing.Point(84, 278);
             this.button93.Name = "button93";
             this.button93.Size = new System.Drawing.Size(75, 50);
             this.button93.TabIndex = 48;
@@ -1811,6 +1819,58 @@
             this.label2.Text = "Setup";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // button94
+            // 
+            this.button94.BackColor = System.Drawing.Color.OrangeRed;
+            this.button94.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button94.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button94.Location = new System.Drawing.Point(4, 673);
+            this.button94.Name = "button94";
+            this.button94.Size = new System.Drawing.Size(75, 50);
+            this.button94.TabIndex = 61;
+            this.button94.Text = "Disable WIndows Apps";
+            this.button94.UseVisualStyleBackColor = false;
+            this.button94.Click += new System.EventHandler(this.button94_Click);
+            // 
+            // button95
+            // 
+            this.button95.BackColor = System.Drawing.Color.OrangeRed;
+            this.button95.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F);
+            this.button95.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button95.Location = new System.Drawing.Point(78, 278);
+            this.button95.Name = "button95";
+            this.button95.Size = new System.Drawing.Size(75, 50);
+            this.button95.TabIndex = 28;
+            this.button95.Text = "Hijack This!";
+            this.button95.UseVisualStyleBackColor = false;
+            this.button95.Click += new System.EventHandler(this.button95_Click);
+            // 
+            // button96
+            // 
+            this.button96.BackColor = System.Drawing.Color.SeaGreen;
+            this.button96.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button96.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button96.Location = new System.Drawing.Point(3, 278);
+            this.button96.Name = "button96";
+            this.button96.Size = new System.Drawing.Size(75, 50);
+            this.button96.TabIndex = 49;
+            this.button96.Text = "OS FORESNSICS";
+            this.button96.UseVisualStyleBackColor = false;
+            this.button96.Click += new System.EventHandler(this.button96_Click);
+            // 
+            // button97
+            // 
+            this.button97.BackColor = System.Drawing.Color.SeaGreen;
+            this.button97.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F);
+            this.button97.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button97.Location = new System.Drawing.Point(4, 336);
+            this.button97.Name = "button97";
+            this.button97.Size = new System.Drawing.Size(75, 50);
+            this.button97.TabIndex = 50;
+            this.button97.Text = "Voltality Workbench";
+            this.button97.UseVisualStyleBackColor = false;
+            this.button97.Click += new System.EventHandler(this.button97_Click);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
@@ -1980,6 +2040,10 @@
         private System.Windows.Forms.Button button91;
         private System.Windows.Forms.Button button93;
         private System.Windows.Forms.Button button92;
+        private System.Windows.Forms.Button button94;
+        private System.Windows.Forms.Button button95;
+        private System.Windows.Forms.Button button96;
+        private System.Windows.Forms.Button button97;
     }
 }
 
